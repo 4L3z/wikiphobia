@@ -24,4 +24,20 @@ function showScreamer() {
     });
   }
 
+// sidebar toggle
+const btnToggle = document.querySelector('.toggle-btn');
+const icon = btnToggle.querySelector('i');
 
+btnToggle.addEventListener('click', function () {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.toggle('active');
+  
+  // Alternar ícono
+  if (sidebar.classList.contains('active')) {
+    icon.classList.remove('fa-bars');
+    icon.classList.add('fa-times'); // Cambia a X
+  } else {
+    icon.classList.remove('fa-times');
+    icon.classList.add('fa-bars'); // Cambia a barras
+  }
+});
