@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+/* Fuente */
+@font-face {
+  font-family: "PhamoFont";
+  src: url("src/October\ Crow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilos de la seccion principal */
+.homepage {
+  display: flex;
+  background: linear-gradient(
+      to top,
+      rgba(30, 35, 38, 0.8),
+      rgba(30, 35, 38, 1)
+    ),
+    url(/src/homepage.webp);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-family: PhamoFont, sans-serif;
+  font-size: 70px;
+  color: #fff;
+}
+
+.title h1 {
+  height: 50px;
+}
+
+.star {
+  border: 1px solid green;
+  width: 100px;
+  flex-direction: row;
+}
+
+.stars img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 470px;
+  top: 5px;
+}
