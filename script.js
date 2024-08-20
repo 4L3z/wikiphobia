@@ -7,7 +7,9 @@ function showScreamer() {
       confirmButtonText: 'OK',
       allowOutsideClick: false,
       allowEscapeKey: false,
-      allowEnterKey: false
+      allowEnterKey: false,
+      background: "black",
+      color: "#FFF"
     }).then((result) => {
       if (result.isConfirmed) {
         // Mostrar el screamer

@@ -9,7 +9,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
 /* Estilos de la seccion principal */
 .homepage {
   display: flex;
@@ -42,16 +41,11 @@ body {
   height: 50px;
 }
 
-.star {
-  border: 1px solid green;
-  width: 100px;
-  flex-direction: row;
+.stars {
+  margin-left: auto;
 }
 
 .stars img {
   width: 80px;
   height: 80px;
-  position: relative;
-  left: 470px;
-  top: 5px;
 }
