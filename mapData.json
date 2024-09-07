@@ -1,0 +1,179 @@
+{
+    "1": {
+      "title": "Willow Street House",
+      "images": [
+        { "title": "Primer Piso", "src": "./src/maps/modal/Willow/Willow-Street-House_-Firts-Floor-1.png" },
+        { "title": "Subsuelo", "src": "./src/maps/modal/Willow/Willow-Street-House_-Basement.png" }
+      ],
+      "info": [
+        {
+          "title": "En este mapa podemos encontrar: ",
+          "items": ["Cartas del tarot", "Caja Musical", "Espejo Encantado", "Tablero de Ouija", "Muñeca Vudu", "Circulo de Invocacion"]
+        }
+      ]
+    },
+    "2": {
+      "title": "Tanglewood Street House",
+      "images": [
+        { "title": "Primer Piso", "src": "./src/maps/modal/Tangle/TANGLE-1ST.png" },
+        { "title": "Subsuelo", "src": "./src/maps/modal/Tangle/TANGLE-basement.png" }
+      ],
+      "info": [
+        {
+          "title": "En este mapa podemos encontrar: ",
+          "items": ["Caja Musical", "Espejo Encantado", "Cartas del tarot", "Muñeca Vudu", "Circulo de Invocacion", "Tablero de Ouija"]
+        }
+      ]
+    },
+    "3": {
+      "title": "Ridgeview Road House",
+      "images": [
+        { "title": "Primer Piso", "src": "./src/maps/modal/Ridgeview/1-floor.png" },
+        {"title": "Segundo Piso", "src": "./src/maps/modal/Ridgeview/2-floor.png"},
+        {"title": "Subsuelo", "src": "./src/maps/modal/Ridgeview/basement.png"}
+      ],
+      "info": [
+        {
+          "title": "En este mapa podemos encontrar ",
+          "items": ["Cartas del tarot", "Espejo Encantado", "Tablero de Ouija", "Muñeca Vudu", "Caja Musical", "Circulo de Invocacion"]
+        }
+      ]
+    },
+    "4": {
+      "title": "Edgefield Street House",
+      "images": [
+        { "title": "Primer Piso", "src": "./src/maps/modal/Edgefield/1-floor.png" },
+        { "title": "Segundo Piso", "src": "./src/maps/modal/Edgefield/2-floor.png" },
+        { "title": "Subsuelo", "src": "./src/maps/modal/Edgefield/basement.png" }
+      ],
+      "info": [
+        {
+          "title": "En este mapa podemos encontrar: ",
+          "items": ["Cartas del tarot", "Espejo Encantado", "Caja Musical", "Tablero de Ouija", "Muñeca Vudu", "Circulo de Invocacion"]
+        }
+      ]
+    },
+   "5": {
+        "title": "Point Hope",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/Point/1-floor.png" },
+          { "title": "Segundo Piso", "src": "./src/maps/modal/Point/2-floor.png" },
+          { "title": "Tercer Piso", "src": "./src/maps/modal/Point/3-floor.png" },
+          { "title": "Cuarto Piso", "src": "./src/maps/modal/Point/4-floor.png" },
+          { "title": "Quinto Piso", "src": "./src/maps/modal/Point/5-floor.png" },
+          { "title": "Sexto Piso", "src": "./src/maps/modal/Point/6-floor.png" },
+          { "title": "Septimo Piso", "src": "./src/maps/modal/Point/7-floor.png" },
+          { "title": "Octavo Piso", "src": "./src/maps/modal/Point/8-floor.png" },
+          { "title": "Noveno Piso", "src": "./src/maps/modal/Point/9-floor.png" },
+          { "title": "Decimo Piso", "src": "./src/maps/modal/Point/10-floor.png" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Cartas del tarot", "Espejo Encantado", "Circulo de Invocacion", "Muñeca Vudu", "Mano De Mono","Caja Musical", "Tablero de Ouija"]
+          }
+        ]
+      },
+    "6":  {
+        "title": "Maple Lodge Campsite",
+        "images": [
+          { "title": "Maple Lodge Campsite", "src": "./src/maps/modal/Maple/1.jpg" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Muñeca Vudu", "Cartas del tarot", "Caja Musical", "Circulo de Invocacion", "Espejo Encantado", "Mano De Mono", "Muñeca Vudu"]
+          }
+        ]
+      },
+    "7":  {
+        "title": "Camp Woodwind",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/Woodwind/1.png" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado","Mano De Mono", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "8":{
+        "title": "Grafton Farmhouse",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/Grafton/1-floor.png" },
+          {"title": "Segundo Piso", "src": "./src/maps/modal/Grafton/2-floor.png"}
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado","Mano De Mono", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "9": {
+        "title": "Bleasdale Farmhouse",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/Bleasdale/1-floor.png" },
+          { "title": "Segundo Piso", "src": "./src/maps/modal/Bleasdale/2-floor.png" },
+          { "title": "Atico", "src": "./src/maps/modal/Bleasdale/atico.png" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "10": {
+        "title": "Brownstone High School",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/School/1-floor.png" },
+          { "title": "Segundo Piso", "src": "./src/maps/modal/School/2-floor.png" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+"items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "11":{
+        "title": "Prision",
+        "images": [
+          { "title": "Primer Piso", "src": "./src/maps/modal/Prision/1-floor.png" },
+          { "title": "Segundo Piso", "src": "./src/maps/modal/Prision/2-floor.png" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+"items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "12":{
+        "title": "Sunny Meadows Restricted",
+        "images": [
+          { "title": "Sunny Meadows Restricted", "src": "./src/maps/modal/Sunny R/1.webp" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado", "Tablero de Ouija"]
+          }
+        ]
+      },
+      "13": {
+        "title": "Sunny Meadows",
+        "images": [
+          { "title": "Sunny Meadows", "src": "./src/maps/modal/Sunny/1.webp" }
+        ],
+        "info": [
+          {
+            "title": "En este mapa podemos encontrar: ",
+            "items": ["Caja Musical", "Muñeca Vudu", "Cartas del tarot", "Circulo de Invocacion","Espejo Encantado","Mano De Mono", "Tablero de Ouija"]
+          }
+        ]
+      }
+  }
+  
