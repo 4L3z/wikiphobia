@@ -1,6 +1,6 @@
-# Guía Phasmophobia
+# WikiPhobia
 
-Bienvenido a la guía interactiva de *Phasmophobia*, diseñada para ayudarte a entender y dominar los elementos clave del juego. Desde descripciones detalladas de los ítems hasta estrategias avanzadas para cazar fantasmas, esta guía te proporcionará la información necesaria para enfrentarte a cualquier reto en *Phasmophobia*.
+Bienvenido a WikiPhobia, la guía interactiva de *Phasmophobia* diseñada para ayudarte a entender y dominar los elementos clave del juego. Desde descripciones detalladas de los ítems hasta estrategias avanzadas para cazar fantasmas, esta guía te proporcionará la información necesaria para enfrentarte a cualquier reto en *Phasmophobia*.
 
 ## Descripción
 
