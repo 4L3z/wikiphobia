@@ -1,0 +1,54 @@
+{
+    "1": {
+      "title": "Willow Street House",
+      "image": "/maps/Willow-Street-House.jpg"
+    },
+    "2": {
+      "title": "Tanglewood Street House",
+      "image": "/maps/Tanglewood-Street-House.jpg"
+    },
+    "3": {
+      "title": "Ridgeview Road House",
+      "image": "/maps/Ridgeview-Road-House.jpg"
+    },
+    "4": {
+      "title": "Edgefield Street House",
+      "image": "/maps/Edgefield-Street-House.jpg"
+    },
+    "5": {
+      "title": "Point Hope",
+      "image": "/maps/Point-Hope.png"
+    },
+    "6": {
+      "title": "Maple Lodge Campsite",
+      "image": "/maps/Maple-Lodge-Campsite.png"
+    },
+    "7": {
+      "title": "Camp Woodwind",
+      "image": "/maps/Camp-Woodwind.jpg"
+    },
+    "8": {
+      "title": "Grafton Farmhouse",
+      "image": "/maps/Grafton-Farmhouse.jpg"
+    },
+    "9": {
+      "title": "Bleasdale Farmhouse",
+      "image": "/maps/Bleasdale-Farmhouse.jpg"
+    },
+    "10": {
+      "title": "Brownstone High School",
+      "image": "/maps/Brownstone-High-School.jpg"
+    },
+    "11": {
+      "title": "Prision",
+      "image": "/maps/Prision.jpg"
+    },
+    "12": {
+      "title": "Sunny Meadows Restricted",
+      "image": "/maps/Sunny-Meadows-Restricted.jpg"
+    },
+    "13": {
+      "title": "Sunny Meadows",
+      "image": "/maps/Sunny-Meadows.jpg"
+    }
+  }

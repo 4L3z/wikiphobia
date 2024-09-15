@@ -1,0 +1,128 @@
+/* Fantasmas */
+.ghosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181313;
+    padding: 20px;
+  }
+  
+  .ghosts-title {
+    font-size: 40px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family: Escritura, sans-serif;
+  }
+  
+  .container-ghosts {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .grid-ghosts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 60px;
+    justify-items: center;
+    width: 100%;
+  }
+  
+  .ghost {
+    height: 180px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .ghost img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .ghost::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+  }
+  
+  .ghost:hover::before {
+    background-color: rgba(230, 255, 5, 0.2);
+  }
+  
+  .ghost:hover {
+    transform: scale(1.05);
+  }
+  
+  .overlay-text-ghost {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Escritura, sans-serif;
+    text-align: center;
+    opacity: 0;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: opacity 0.3s ease, color 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .ghost:hover .overlay-text-ghost {
+    opacity: 1;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+  }
+  
+/* Modal Content */
+.custom-swal-popup .modal-content {
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-swal-popup .image-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-swal-popup .image-ghost {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-swal-popup .description {
+  font-family: Escritura, sans-serif;
+  color: #fff;
+}
+
+.custom-swal-popup .tests-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.custom-swal-popup .tests-list li {
+  margin: 10px 0;
+}
+
+.custom-swal-popup .video-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
