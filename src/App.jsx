@@ -3,7 +3,7 @@ import { Homepage } from './components/Homepage';
 import Nivel1 from './components/Objects/Nivel1';
 import Nivel2 from './components/Objects/Nivel2';
 import Nivel3 from './components/Objects/Nivel3';
-import {SideBar} from './components/SideBar';
+import {SideBar} from './components/Sidebar';
 import {Maps} from './components/Maps/Maps';
 import Ghosts from './components/Ghost/Ghosts';
 import Objects from './components/Objects/Objects';
