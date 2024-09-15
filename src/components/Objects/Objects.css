@@ -1,0 +1,46 @@
+.objects-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #120e0e;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .objects-title {
+    font-size: 2rem;
+    color: white;
+    font-family: Escritura, sans-serif;
+    margin-bottom: 80px;
+  }
+  
+  .objects-levels {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .object-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+    font-size: 1.5rem;
+    font-family: Escritura, sans-serif;
+    font-weight: bold;
+    transform: skew(-10deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .object-card:hover {
+    transform: skew(-10deg) scale(1.05);
+  }
+  
