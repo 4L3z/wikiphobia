@@ -1,8 +1,24 @@
-# React + Vite
+# WikiPhobia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a WikiPhobia, la guía interactiva de *Phasmophobia* diseñada para ayudarte a entender y dominar los elementos clave del juego. Desde descripciones detalladas de los ítems hasta estrategias avanzadas para cazar fantasmas, esta guía te proporcionará la información necesaria para enfrentarte a cualquier reto en *Phasmophobia*.
 
-Currently, two official plugins are available:
+## ¿Que se utilizo para hacer esta pagina?
+<p align="center">
+<img alt="Vite" src="https://img.shields.io/badge/-Vite-B73BFE?style=flat&logo=vite&logoColor=white"></a>
+<img alt="React" src="https://shields.io/badge/react-black?logo=react&style=for-the-badge"></a>
+<img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+<img alt="SweetAlert" src="https://img.shields.io/badge/SWAL-Sweet%20Alert-orange"></a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Miembros del equipo CTA
+
+- **[Alejandro Palacios]** 
+- **[Mateo Faya]** 
+- **[Lucas Gutiérrez]** 
+- **[Felipe Gervan]**
+- **[Natalie Schunke]**
+- **[Santiago Villafañez]**
+
+---
+
+© 2024 - Team CTA
