@@ -10,7 +10,7 @@ const Objects = () => {
   };
 
   return (
-    <section className="objects-container">
+    <section className="objects-container" id='objects'>
       <h1 className="objects-title">OBJETOS</h1>
       <div className="objects-levels">
         <div
