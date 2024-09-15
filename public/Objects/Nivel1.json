@@ -1,19 +1,162 @@
 [
-    {
-      "id": 1,
-      "title": "Proyector Dots",
-      "price": "65$",
-      "description": "Un pequeño puntero láser que proyecta pequeños rayos de luz en el entorno.",
-      "category": "Electrónico",
-      "image": "/Objects/Nivel 1/DOTS-Tier-1.png"
-    },
-    {
-      "id": 2,
-      "title": "Sensor de Movimiento",
-      "price": "120$",
-      "description": "Detecta movimientos en el área donde se coloca.",
-      "category": "Electrónico",
-      "image": "ruta/de/la/imagen2.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Proyector D.O.T.S",
+    "price": "65$",
+    "description": "Un pequeño puntero láser que proyecta pequeños rayos de luz en el entorno. Se puede colocar.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/DOTS-Tier-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Medidor EMF",
+    "price": "45$",
+    "description": "Un medidor EMF con varios modos para analizar las distintas interferencias del aire. Si la aguja empieza a moverse. Si el fantasma tuviera esta prueba, llegará la aguja al nivel 5.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/EMF-Tier-1.png"
+  },
+  {
+    "id": 3,
+    "title": "Libro de Escritura",
+    "price": "40$",
+    "description": "Cuaderno de escritura pequeño, con poco alcance. Si el fantasma no tuviese esta prueba, lanzará el libro por los aires, útil para descartar fantasmas sin escritura.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Libro-de-escritura-Tier-1.png"
+  },
+  {
+    "id": 4,
+    "title": "Spirit Box",
+    "price": "50$",
+    "description": "Pequeña radio compacta y antigua. Si el fantasma tiene esta prueba, la luz se pondrá blanca.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Spirit-Box-Tier-1.png"
+  },
+  {
+    "id": 5,
+    "title": "Termómetro",
+    "price": "30$",
+    "description": "Termómetro de pared que mide la temperatura de una habitación. Si el fantasma tiene esta prueba, el indicador estará debajo del cero.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Termometro-Tier-1.png"
+  },
+  {
+    "id": 6,
+    "title": "Ultravioleta",
+    "price": "20$",
+    "description": "Emite un rayo de luz de larga distancia pero estrecho, ideal para buscar huellas dactilares y pisadas.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Ultravioleta-Tier-1.png"
+  },
+  {
+    "id": 7,
+    "title": "Cámara de Video",
+    "price": "50$",
+    "description": "Cámara de video antigua que permite ver orbes. Alta interferencia en ataque.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Camara-de-video-Tier-1.png"
+  },
+  {
+    "id": 8,
+    "title": "Crucifijo",
+    "price": "30$",
+    "description": "Solo sirve para evitar un ataque y su alcance es bajo.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Crucifijo-Tier-1.png"
+  },
+  {
+    "id": 9,
+    "title": "Vela (Lumbre)",
+    "price": "15$",
+    "description": "Pequeña vela con una duración de 5 minutos que reduce en un 33% la cordura perdida.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Lumbrevela-tier-1.png"
+  },
+  {
+    "id": 10,
+    "title": "Linterna",
+    "price": "30$",
+    "description": "Linterna con una pequeña luz.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Linterna-Tier-1.png"
+  },
+  {
+    "id": 11,
+    "title": "Cámara en la Cabeza",
+    "price": "60$",
+    "description": "Cámara que se puede observar desde el camión para ver orbes.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Camara-de-cabeza-Tier-1.png"
+  },
+  {
+    "id": 12,
+    "title": "Encendedor",
+    "price": "10$",
+    "description": "Caja de 10 cerillas, cada una con una duración de 10 segundos.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Encendedor-Tier-1.png"
+  },
+  {
+    "id": 13,
+    "title": "Incienso",
+    "price": "15$",
+    "description": "Incienso que desorienta al fantasma por 5 segundos en un radio de 3 metros.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Incienso-Tier-1.png"
+  },
+  {
+    "id": 14,
+    "title": "Sensor de Movimiento",
+    "price": "100$",
+    "description": "Sensor que emite luz al pasar el fantasma. Se adhiere a paredes o suelo.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Sensor-de-movimiento-Tier-1.png"
+  },
+  {
+    "id": 15,
+    "title": "Micrófono Parabólico",
+    "price": "50$",
+    "description": "Micrófono para escuchar sonidos lejanos. Se ensordece todo lo demás para escuchar mejor al fantasma.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Parabolica-Tier-1.png"
+  },
+  {
+    "id": 16,
+    "title": "Cámara de Fotos",
+    "price": "40$",
+    "description": "Cámara Polaroid que tarda mucho más en sacar fotos de seguido.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Camara-Tier-1.png"
+  },
+  {
+    "id": 17,
+    "title": "Sal",
+    "price": "15$",
+    "description": "Sal que se puede utilizar fuera de ataque para que el fantasma deje evidencia ultravioleta.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Sal-Tier-1.png"
+  },
+  {
+    "id": 18,
+    "title": "Cordura",
+    "price": "20$",
+    "description": "Botella con aceite de serpiente que restaura la cordura lentamente.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Cordura-Tier-1.png"
+  },
+  {
+    "id": 19,
+    "title": "Sensor de Sonido",
+    "price": "80$",
+    "description": "Sensor de sonido que puedes escuchar desde el camión.",
+    "category": "Electrónico",
+    "image": "/Objects/Nivel 1/Sensor-de-sonido-Tier-1.png"
+  },
+  {
+    "id": 20,
+    "title": "Trípode",
+    "price": "25$",
+    "description": "Trípode para colocar una cámara de video y mejorar la visualización de la zona. Los fantasmas pueden interactuar con él y tumbarlo.",
+    "category": "No Electrónico",
+    "image": "/Objects/Nivel 1/Tripode-Tier-1.png"
+  }
+]
