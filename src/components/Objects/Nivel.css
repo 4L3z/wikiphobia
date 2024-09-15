@@ -1,82 +1,172 @@
 .nivel-container {
-    padding: 2rem;
-    background-color: #d1d1d1; /* Fondo gris */
-    height: 100vh;
-    text-align: center;
-  }
-  
+  padding: 2rem;
+  height: 230vh;
+  text-align: center;
+}
+
+.nivel-title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Estilos para pantallas grandes */
+.nivel-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nivel-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 200px;
+}
+
+.nivel-card:hover {
+  transform: scale(1.05);
+}
+
+.nivel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.nivel-electronico {
+  color: red;
+  font-weight: bold;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(131, 128, 128);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.category {
+  color: red;
+  font-weight: bold;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media Queries para pantallas medianas */
+@media (max-width: 1024px) {
   .nivel-title {
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 2rem;
-  }
-  
-  .nivel-grid {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  
-  .nivel-card {
-    background-color: white;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    width: 200px;
-  }
-  
-  .nivel-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .nivel-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .nivel-electronico {
-    color: red;
-    font-weight: bold;
-  }
-  
-  .nivel-container {
-    text-align: center;
-    padding: 20px;
+      font-size: 2.5rem;
   }
   
   .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nivel-card {
+      width: 180px;
+  }
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .nivel-title {
+      font-size: 2rem;
   }
   
-  .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    overflow: hidden;
+  .cards {
+      grid-template-columns: repeat(1, 1fr);
   }
-  
-  .card:hover {
-    transform: scale(1.05);
+
+  .nivel-card {
+      width: 100%;
   }
-  
+
   .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+      height: 150px;
   }
-  
-  .card:hover img {
-    transform: scale(1.1);
+}
+
+/* Media Queries para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+  .nivel-title {
+      font-size: 1.8rem;
   }
-  
-  .category {
-    color: red;
-    font-weight: bold;
+
+  .nivel-container {
+      padding: 1rem;
   }
-  
+
+  .nivel-card {
+      padding: 0.5rem;
+  }
+
+  .cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+  }
+
+  .card img {
+      height: 120px;
+  }
+}

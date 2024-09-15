@@ -18,21 +18,21 @@ const Objects = () => {
           onClick={() => handleCardClick('/nivel1')}
           style={{ backgroundImage: 'url(/Objects/Nivel1.png)' }}
         >
-          NIVEL 1
+          TIER 1
         </div>
         <div
           className="object-card"
           onClick={() => handleCardClick('/nivel2')}
           style={{ backgroundImage: 'url(/Objects/Nivel2.png)' }}
         >
-          NIVEL 2
+         TIER 2
         </div>
         <div
           className="object-card"
           onClick={() => handleCardClick('/nivel3')}
           style={{ backgroundImage: 'url(/Objects/Nivel3.png)' }}
         >
-          NIVEL 3
+          TIER 3
         </div>
       </div>
     </section>

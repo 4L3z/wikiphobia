@@ -1,46 +1,86 @@
+/* Estilos para pantallas grandes (escritorios) */
 .objects-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #120e0e;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .objects-title {
-    font-size: 2rem;
-    color: white;
-    font-family: Escritura, sans-serif;
-    margin-bottom: 80px;
-  }
-  
-  .objects-levels {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  }
-  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #120e0e;
+  text-align: center;
+  padding: 20px;
+}
+
+.objects-title {
+  font-size: 2rem;
+  color: white;
+  font-family: Escritura, sans-serif;
+  margin-bottom: 80px;
+}
+
+.objects-levels {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.object-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 20px;
+  font-size: 1.5rem;
+  color: aliceblue;
+  font-family: Escritura, sans-serif;
+  font-weight: bold;
+  transform: skew(-10deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 550px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object-card:hover {
+  transform: skew(-10deg) scale(1.05);
+}
+
+@media (max-width: 1024px){
   .object-card {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    font-size: 1.5rem;
-    font-family: Escritura, sans-serif;
-    font-weight: bold;
-    transform: skew(-10deg);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    height: 350px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    width: 150px;
   }
-  
+}
+
+
+
+
+
+/* Estilos para dispositivos móviles y tablets */
+@media (max-width: 768px) {
+  .objects-levels {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .object-card {
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    transform: none; /* Elimina el skew en pantallas pequeñas */
+    box-shadow: none; /* Elimina el sombreado para un diseño más limpio */
+    border-radius: 10px; /* Añade bordes redondeados para parecer más una carta */
+    background-color: white; /* Cambia el fondo a blanco */
+    color: #fff; /* Ajusta el color del texto */
+  }
+
   .object-card:hover {
-    transform: skew(-10deg) scale(1.05);
+    transform: none; /* Evita la escala en pantallas pequeñas */
   }
-  
+
+  .objects-title {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+    margin-bottom: 40px;
+  }
+}
