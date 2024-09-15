@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Proyector Dots",
+      "price": "65$",
+      "description": "Un pequeño puntero láser que proyecta pequeños rayos de luz en el entorno.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 1/DOTS-Tier-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Sensor de Movimiento",
+      "price": "120$",
+      "description": "Detecta movimientos en el área donde se coloca.",
+      "category": "Electrónico",
+      "image": "ruta/de/la/imagen2.png"
+    }
+  ]
+  

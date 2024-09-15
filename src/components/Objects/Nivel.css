@@ -1,0 +1,43 @@
+.nivel-container {
+    padding: 2rem;
+    background-color: #d1d1d1; /* Fondo gris */
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .nivel-title {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .nivel-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .nivel-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: 200px;
+  }
+  
+  .nivel-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .nivel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .nivel-electronico {
+    color: red;
+    font-weight: bold;
+  }
+  
