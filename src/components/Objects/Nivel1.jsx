@@ -5,7 +5,7 @@ const Nivel1 = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('/path/to/nivel1.json')
+    fetch('/Objects/Nivel1.json')
       .then(response => response.json())
       .then(data => setItems(data));
   }, []);
