@@ -1,0 +1,98 @@
+{
+    "1": {
+      "title": "Banshee",
+      "image": "/ghosts/Banshee.jpg"
+    },
+    "2": {
+      "title": "Demonio",
+      "image": "/ghosts/Demonio.jpg"
+    },
+    "3": {
+      "title": "Deogen",
+      "image": "/ghosts/Deogen.jpg"
+    },
+    "4": {
+      "title": "Ente",
+      "image": "/ghosts/Ente.jpg"
+    },
+    "5": {
+      "title": "Espiritu",
+      "image": "/ghosts/espiritu.jpg"
+    },
+    "6": {
+      "title": "Gemelos",
+      "image": "/ghosts/Gemelos.jpg"
+    },
+    "7": {
+      "title": "Goryo",
+      "image": "/ghosts/Goryo.jpg"
+    },
+    "8": {
+      "title": "Hantu",
+      "image": "/ghosts/Hantu.jpg"
+    },
+    "9": {
+      "title": "Jinn",
+      "image": "/ghosts/Jinn.jpg"
+    },
+    "10": {
+      "title": "Mimico",
+      "image": "/ghosts/Mimico.jpg"
+    },
+    "11": {
+      "title": "Moroi",
+      "image": "/ghosts/Moroi.jpg"
+    },
+    "12": {
+      "title": "Myling",
+      "image": "/ghosts/Myling.jpg"
+    },
+    "13": {
+      "title": "Obake",
+      "image": "/ghosts/Obake.jpg"
+    },
+    "14": {
+      "title": "Oni",
+      "image": "/ghosts/Oni.jpg"
+    },
+    "15": {
+      "title": "Phantom",
+      "image": "/ghosts/Phantom.jpg"
+    },
+    "16": {
+      "title": "Poltergeist",
+      "image": "/ghosts/Poltergeist.jpg"
+    },
+    "17": {
+      "title": "Revenant",
+      "image": "/ghosts/Revenant.jpg"
+    },
+    "18": {
+      "title": "Sombra",
+      "image": "/ghosts/sombra.jpg"
+    },
+    "19": {
+      "title": "Thaye",
+      "image": "/ghosts/thaye.jpg"
+    },
+    "20": {
+      "title": "Yokai",
+      "image": "/ghosts/Yokai.jpg"
+    },
+    "21": {
+      "title": "Yurei",
+      "image": "/ghosts/Yurei.jpg"
+    },
+    "22": {
+      "title": "Pesadilla",
+      "image": "/ghosts/Pesadilla.jpg"
+    },
+    "23": {
+      "title": "Raiju",
+      "image": "/ghosts/Raiju.jpg"
+    },
+    "24": {
+      "title": "Onryo",
+      "image": "/ghosts/Onryo.jpg"
+    }
+  }

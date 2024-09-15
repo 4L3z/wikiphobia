@@ -1,0 +1,174 @@
+{
+  "1": {
+    "title": "Banshee",
+    "image": "/ghosts/Banshee.jpg",
+    "description": "Este es un Banshee, un espíritu conocido por su grito aterrador.",
+    "tests": [
+      "Test 1 para Banshee",
+      "Test 2 para Banshee",
+      "Test 3 para Banshee"
+    ],
+    "video": "/videos/banshee.mp4"
+  },
+  "2": {
+    "title": "Demonio",
+    "image": "/ghosts/Demonio.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "3": {
+    "title": "Deogen",
+    "image": "/ghosts/Deogen.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "4": {
+    "title": "Ente",
+    "image": "/ghosts/Ente.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "5": {
+    "title": "Espiritu",
+    "image": "/ghosts/espiritu.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "6": {
+    "title": "Gemelos",
+    "image": "/ghosts/Gemelos.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "7": {
+    "title": "Goryo",
+    "image": "/ghosts/Goryo.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "8": {
+    "title": "Hantu",
+    "image": "/ghosts/Hantu.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "9": {
+    "title": "Jinn",
+    "image": "/ghosts/Jinn.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "10": {
+    "title": "Mimico",
+    "image": "/ghosts/Mimico.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "11": {
+    "title": "Moroi",
+    "image": "/ghosts/Moroi.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "12": {
+    "title": "Myling",
+    "image": "/ghosts/Myling.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "13": {
+    "title": "Obake",
+    "image": "/ghosts/Obake.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "14": {
+    "title": "Oni",
+    "image": "/ghosts/Oni.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "15": {
+    "title": "Phantom",
+    "image": "/ghosts/Phantom.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "16": {
+    "title": "Poltergeist",
+    "image": "/ghosts/Poltergeist.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "17": {
+    "title": "Revenant",
+    "image": "/ghosts/Revenant.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "18": {
+    "title": "Sombra",
+    "image": "/ghosts/sombra.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "19": {
+    "title": "Thaye",
+    "image": "/ghosts/thaye.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "20": {
+    "title": "Yokai",
+    "image": "/ghosts/Yokai.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "21": {
+    "title": "Yurei",
+    "image": "/ghosts/Yurei.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "22": {
+    "title": "Pesadilla",
+    "image": "/ghosts/Pesadilla.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  },
+  "23": {
+    "title": "Raiju",
+    "image": "/ghosts/Raiju.jpg",
+    "description": "132",
+    "tests": [],
+    "video": ""
+  },
+  "24": {
+    "title": "Onryo",
+    "image": "/ghosts/Onryo.jpg",
+    "description": "123",
+    "tests": [],
+    "video": ""
+  }
+}
