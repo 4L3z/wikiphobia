@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Nivel.css';
+import { Link } from 'react-router-dom'; // Importar Link de react-router-dom
 const Nivel3 = () => {
   const [items, setItems] = useState([]);
 
@@ -11,7 +12,12 @@ const Nivel3 = () => {
 
   return (
     <div className="nivel-container">
-      <h1>Objetos Tier 3</h1>
+        <nav className="navigation">
+        <Link to="/nivel1" className='nav-link'>Ir a Tier 1</Link>
+        <Link to="/nivel2" className='nav-link'>Ir a Tier 2</Link>
+        <Link to="/" className='nav-link'>Volver al Inicio</Link>
+      </nav>
+      <h1 className='nivel-title' >Objetos Tier 3</h1>
       <div className="cards">
         {items.map(item => (
           <div key={item.id} className="card">

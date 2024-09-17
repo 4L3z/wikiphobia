@@ -1,13 +1,41 @@
+
+
 .nivel-container {
   padding: 2rem;
-  height: 230vh;
   text-align: center;
+  background-color: #120e0e;
 }
 
 .nivel-title {
   font-size: 3rem;
   color: white;
   margin-bottom: 2rem;
+  font-family: Escritura, sans-serif;
+}
+
+
+
+/* Estilos para el navbar */
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los enlaces */
+  margin-bottom: 20px; /* Espacio entre el navbar y el contenido */
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white; /* Color de texto */
+  background-color: #333; /* Fondo de los enlaces */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555; /* Color de fondo al hacer hover */
+  color: #fff; /* Color de texto al hacer hover */
 }
 
 /* Estilos para pantallas grandes */
@@ -70,11 +98,37 @@
   transform: scale(1.1);
 }
 
+.card h3{
+  font-family: Card-title, sans-serif;
+}
+
+.card p{
+  font-family: Card-text, sans-serif;
+}
+
 .category {
   color: red;
   font-weight: bold;
+  font-family: Card-type, sans-serif;
 }
 
+.consumable {
+  background-color: #ffe4e1; 
+  border-color: #ff4500; 
+  font-family: Card-consumable, sans-serif;
+}
+
+.consumable-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ff4500;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 0.9em;
+  font-family: Card-consumable, sans-serif;
+}
 .modal-overlay {
   position: fixed;
   top: 0;
