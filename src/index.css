@@ -5,6 +5,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Fuentes */
 @font-face {
   font-family: "PhamoFont";
@@ -19,6 +21,35 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Card-Title";
+  src: url("/fonts/Rowdies/Rowdies-bold") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Card-Text";
+  src: url("/fonts/Montserrat/Montserrat-Italic-VariableFont_wght") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Card-Type";
+  src: url("/fonts/Playpen_Sans/PlaypenSans-VariableFont_wght") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Card-consumable";
+  src: url("/fonts/LilitaOne-Regular") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 /* SideBar */

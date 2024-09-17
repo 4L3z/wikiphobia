@@ -61,7 +61,8 @@
     "price": "30$",
     "description": "Solo sirve para evitar un ataque y su alcance es bajo.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Crucifijo-Tier-1.png"
+    "image": "/Objects/Nivel 1/Crucifijo-Tier-1.png",
+    "consumable": true
   },
   {
     "id": 9,
@@ -69,7 +70,8 @@
     "price": "15$",
     "description": "Pequeña vela con una duración de 5 minutos que reduce en un 33% la cordura perdida.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Lumbrevela-tier-1.png"
+    "image": "/Objects/Nivel 1/Lumbrevela-tier-1.png",
+    "consumable": true
   },
   {
     "id": 10,
@@ -93,7 +95,8 @@
     "price": "10$",
     "description": "Caja de 10 cerillas, cada una con una duración de 10 segundos.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Encendedor-Tier-1.png"
+    "image": "/Objects/Nivel 1/Encendedor-Tier-1.png",
+    "consumable": true
   },
   {
     "id": 13,
@@ -101,7 +104,8 @@
     "price": "15$",
     "description": "Incienso que desorienta al fantasma por 5 segundos en un radio de 3 metros.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Incienso-Tier-1.png"
+    "image": "/Objects/Nivel 1/Incienso-Tier-1.png",
+    "consumable": true
   },
   {
     "id": 14,
@@ -133,7 +137,8 @@
     "price": "15$",
     "description": "Sal que se puede utilizar fuera de ataque para que el fantasma deje evidencia ultravioleta.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Sal-Tier-1.png"
+    "image": "/Objects/Nivel 1/Sal-Tier-1.png",
+    "consumable": true
   },
   {
     "id": 18,
@@ -141,7 +146,8 @@
     "price": "20$",
     "description": "Botella con aceite de serpiente que restaura la cordura lentamente.",
     "category": "No Electrónico",
-    "image": "/Objects/Nivel 1/Cordura-Tier-1.png"
+    "image": "/Objects/Nivel 1/Cordura-Tier-1.png",
+    "consumable": true
   },
   {
     "id": 19,
