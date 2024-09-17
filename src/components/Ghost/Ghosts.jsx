@@ -64,13 +64,14 @@ export default function Ghosts() {
         <section id="ghosts" className="ghosts">
             <div className="container-ghosts">
                 <h1 className="ghosts-title">FANTASMAS</h1>
+                <h2 style={{ color: 'red' }} disabled>En proceso...</h2>
                 <div className="grid-ghosts">
                     {Object.keys(ghosts).map(ghostId => (
                         <div
                             key={ghostId}
                             className="ghost"
                             data-id={ghostId}
-                            onClick={() => handleGhostClick(ghostId)}
+                            // onClick={() => handleGhostClick(ghostId)}
                         >
                             <img src={ghosts[ghostId].image} alt={ghosts[ghostId].title} />
                             <div className="overlay-text-ghost">{ghosts[ghostId].title}</div>
