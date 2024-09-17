@@ -1,0 +1,169 @@
+[
+    {
+      "id": 1,
+      "title": "Proyector D.O.T.S",
+      "price": "65$",
+      "description": "Un proyector motorizado con tres lentes que cubren un amplio rango lumínico. Se puede colocar en paredes y algunos techos. Si das click cuando esté funcionando se puede parar en la posición que uno quiera. Segundo click lo apaga.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/DOTS-Tier-3.png"
+    },
+    {
+      "id": 2,
+      "title": "Medidor EMF",
+      "price": "45$",
+      "description": "Tiene un sonido único. Lector EMF con pantalla, muestra primero el EMF que emite el objeto, el RNG (la distancia donde está el objeto) y la DIR (unas flechas que indican en qué dirección está el objeto que tiene EMF).",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/EMF-Tier-3.png"
+    },
+    {
+      "id": 3,
+      "title": "Libro de Escritura",
+      "price": "40$",
+      "description": "Grimorio de gran tamaño donde tiene un alcance mucho mayor y da con más facilidad la escritura. Si el fantasma no tuviese esta prueba, cerraría el libro y lo podría lanzar por los aires.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Libro-de-escritura-Tier-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Spirit Box",
+      "price": "50$",
+      "description": "Altavoz de alta calidad y más eficiente al escanear entre distintas frecuencias, logrando que las respuestas sean más fáciles de descifrar. Si no se obtiene respuesta, puede utilizarse el modo texto.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Espirit-Box-Tier-3.png"
+    },
+    {
+      "id": 5,
+      "title": "Termómetro",
+      "price": "30$",
+      "description": "Termómetro digital mucho más rápido leyendo temperaturas. Dejar pulsado el clic derecho para obtener lectura de temperatura.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Termometro-Tier-3.png"
+    },
+    {
+      "id": 6,
+      "title": "Ultravioleta",
+      "price": "20$",
+      "description": "Emite un rayo de luz de larga distancia con mucha amplitud, perfecta para buscar huellas dactilares y pisadas.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Linterna-Ultravioleta-Tier-3.png"
+    },
+    {
+      "id": 7,
+      "title": "Cámara de Vídeo",
+      "price": "50$",
+      "description": "La mejor calidad de imagen, más amplia, mejor visión nocturna y más resistencia contra la interferencia paranormal. Se pueden visualizar orbes con ella.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Camara-de-video-Tier-3.png"
+    },
+    {
+      "id": 8,
+      "title": "Crucifijo",
+      "price": "30$",
+      "description": "Crucifijo de metal que puede bloquear hasta dos ataques, o un solo ataque maldito. Mayor rango de acción que sus antecesores.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Crucifijo-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 9,
+      "title": "Vela (Lumbre)",
+      "price": "15$",
+      "description": "Farol de aceite con una duración de 10 minutos. Reduce en un 66% la cordura que perdemos.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Vela-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 10,
+      "title": "Linterna",
+      "price": "30$",
+      "description": "Linterna con luz muy potente.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Linterna-Tier-3.png"
+    },
+    {
+      "id": 11,
+      "title": "Equipamiento de la Cabeza",
+      "price": "60$",
+      "description": "Luz infrarroja que permite ver perfectamente en la oscuridad.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Literna-inflaroja-cabeza-Tier-3.png"
+    },
+    {
+      "id": 12,
+      "title": "Encendedor",
+      "price": "10$",
+      "description": "Mechero de gas con una duración de 10 minutos.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Mechero-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 13,
+      "title": "Incienso",
+      "price": "15$",
+      "description": "Aumenta el rango y la duración de la cremación. Durante el ataque, detiene al fantasma durante 5 segundos.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Incienso-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 14,
+      "title": "Sensor de Movimiento",
+      "price": "100$",
+      "description": "Versión semiesférica con visión 360º. Detecta solo al fantasma, con un sonido característico de detección.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Sensor-de-movimiento-Tier-3.png"
+    },
+    {
+      "id": 15,
+      "title": "Micrófono Parabólico",
+      "price": "50$",
+      "description": "Aumenta el rango de detección e incluye una pantalla para lecturas visuales de sonidos.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Parabolica-Tier-3.png"
+    },
+    {
+      "id": 16,
+      "title": "Cámara de Fotos",
+      "price": "40$",
+      "description": "Tiempo entre capturas mínimo e incluye una pantalla para visualizar. La pantalla sufre interferencias durante ataques o apariciones.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Camara-de-fotos-Tier-3.png"
+    },
+    {
+      "id": 17,
+      "title": "Sal",
+      "price": "15$",
+      "description": "Contiene más sal y se puede esparcir en largas líneas para bloquear pasillos más anchos. Tiene 3 usos.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Sal-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 18,
+      "title": "Cordura",
+      "price": "20$",
+      "description": "Permite recuperar la cordura más rápido. Durante 10 segundos no se te agota el sprint.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Inyeccion-de-cordura-Tier-3.png",
+      "consumable": true
+    },
+    {
+      "id": 19,
+      "title": "Sensor de Sonido",
+      "price": "80$",
+      "description": "Esta versión del sensor puede adaptarse a tres tamaños. Se puede activar o desactivar desde la pantalla del camión.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 3/Sensor-de-sonido-Tier-3.png"
+    },
+    {
+      "id": 20,
+      "title": "Trípode",
+      "price": "25$",
+      "description": "Incluye un motor rotacional que permite ajustar la visión desde la pantalla en el camión.",
+      "category": "No Electrónico",
+      "image": "/Objects/Nivel 3/Tripode-Tier-3.png"
+    }
+  ]
+  
