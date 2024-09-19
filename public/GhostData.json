@@ -2,173 +2,256 @@
   "1": {
     "title": "Banshee",
     "image": "/ghosts/Banshee.jpg",
-    "description": "Este es un Banshee, un espíritu conocido por su grito aterrador.",
+    "description": "Es un espíritu conocido por su grito aterrador, Se enfoca en un solo jugador hasta que lo mata o se encuentra con su objetivo. Tiene miedo de los crucifijos, lo que puede evitar un ataque. ",
     "tests": [
-      "Test 1 para Banshee",
-      "Test 2 para Banshee",
-      "Test 3 para Banshee"
+      "Orbes espectrales",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Proyector D.O.T.S."
     ],
-    "video": "/videos/banshee.mp4"
+    "video": "/ghosts/Videos/Banshee.mp4"
   },
   "2": {
     "title": "Demonio",
     "image": "/ghosts/Demonio.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Uno de los fantasmas más agresivos. Puede iniciar cacerías con mayor frecuencia que otros.",
+    "tests": [
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Escritura fantasmal",
+      "Tempreaturas heladas"
+    ],
+    "video": "/ghosts/Videos/demonio.mp4"
   },
   "3": {
     "title": "Deogen",
     "image": "/ghosts/Deogen.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Siempre sabe dónde están los jugadores y aunque su velocidad varía, nunca puede perderlos.",
+    "tests": [
+      "Spirit Box",
+      "Escritura fantasmal",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/Deogen.mp4"
   },
   "4": {
     "title": "Ente",
     "image": "/ghosts/Ente.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Al mirarlo directamente, reduce considerablemente la cordura del jugador. Desaparece temporalmente si se toma una foto de él.",
+    "tests": [
+      "Spirit Box",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Proyector D.O.T.S."
+    ]
   },
   "5": {
     "title": "Espiritu",
     "image": "/ghosts/espiritu.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "El fantasma más común. No tiene habilidades especiales, pero puede ser muy peligroso si no se manejan adecuadamente.",
+    "tests": [
+      "EMF 5",
+      "Spirit Box",
+      "Escritura fantasmal"
+    ]
   },
   "6": {
     "title": "Gemelos",
     "image": "/ghosts/Gemelos.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Dos entidades que atacan al mismo tiempo, causando confusión en cuanto a dónde están cazando.",
+    "tests": [
+      "EMF 5",
+      "Spirit Box",
+      "Tempreaturas heladas"
+    ]
   },
   "7": {
     "title": "Goryo",
     "image": "/ghosts/Goryo.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Solo se muestra en cámaras con visión nocturna cuando está en una D.O.T.S. No se manifiesta mucho en persona.",
+    "tests": [
+      "EMF 5",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/Goryo.mp4"
   },
   "8": {
     "title": "Hantu",
     "image": "/ghosts/Hantu.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Se mueve más rápido en ambientes fríos y ralentiza en ambientes cálidos.",
+    "tests": [
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Orbes espectrales",
+      "Tempreaturas heladas"
+    ]
   },
   "9": {
     "title": "Jinn",
     "image": "/ghosts/Jinn.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Fantasma territorial que se vuelve extremadamente rápido si los jugadores están lejos. Puede cortar la energía eléctrica para evitar ser detectado.",
+    "tests": [
+      "EMF 5",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Tempreaturas heladas"
+    ],
+    "video": "/ghosts/Videos/jinn.mp4"
   },
   "10": {
     "title": "Mimico",
     "image": "/ghosts/Mimico.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Puede imitar el comportamiento de otros fantasmas, haciéndolo muy impredecible.",
+    "tests": [
+      "Spirit Box",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Tempreaturas heladas"
+    ]
   },
   "11": {
     "title": "Moroi",
     "image": "/ghosts/Moroi.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Envejece rápidamente y su velocidad aumenta conforme envejece. También tiene una gran capacidad de drenar la cordura.",
+    "tests": [
+      "Spirit Box",
+      "Escritura fantasmal",
+      "Tempreaturas heladas"
+    ]
   },
   "12": {
     "title": "Myling",
     "image": "/ghosts/Myling.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Es más silencioso durante la caza, pero produce muchos ruidos paranormales en las grabadoras.",
+    "tests": [
+      "EMF 5",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Escritura fantasmal"
+    ],
+    "video": "/ghosts/Videos/Myling.mp4"
   },
   "13": {
     "title": "Obake",
     "image": "/ghosts/Obake.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Cambia de forma, lo que lo hace difícil de identificar. Deja huellas inusuales.",
+    "tests": [
+      "EMF 5",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Orbes espectrales"
+    ],
+    "video": "/ghosts/Videos/obake.mp4"
   },
   "14": {
     "title": "Oni",
     "image": "/ghosts/Oni.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Muy activo y agresivo, especialmente cuando hay jugadores cerca. Tiende a interactuar con su entorno más que otros fantasmas.",
+    "tests": [
+      "EMF 5",
+      "Tempreaturas heladas",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/oni.mp4"
   },
   "15": {
     "title": "Phantom",
     "image": "/ghosts/Phantom.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": " Al mirarlo directamente, reduce considerablemente la cordura del jugador. Desaparece temporalmente si se toma una foto de él.",
+    "tests": [
+      "EMF 5",
+      "Spirit Box",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/espectro.mp4"
   },
   "16": {
     "title": "Poltergeist",
     "image": "/ghosts/Poltergeist.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Puede mover muchos objetos a la vez, siendo peligroso en habitaciones con varios objetos para lanzar.",
+    "tests": [
+      "Spirit Box",
+      "Ultravioleta (huellas dactilar o pisadas)",
+      "Escritura fantasmal"
+    ],
+    "video": "/ghosts/Videos/Polter.mp4"
   },
   "17": {
     "title": "Revenant",
     "image": "/ghosts/Revenant.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Es uno de los fantasmas más rápidos, persigue rápidamente a sus víctimas, pero si no está cazando, se mueve muy despacio.",
+    "tests": [
+      "Orbes espectrales",
+      "Escritura fantasmal",
+      "Tempreaturas heladas"
+    ],
+    "video": "/ghosts/Videos/revenant.mp4"
   },
   "18": {
     "title": "Sombra",
     "image": "/ghosts/sombra.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Es muy tímido y tiende a no atacar si hay varias personas cerca. Es difícil de identificar debido a su comportamiento reservado.",
+    "tests": [
+      "EMF 5",
+      "Orbes espectrales",
+      "Tempreaturas heladas"
+    ],
+    "video": "/ghosts/Videos/Sombra.mp4"
   },
   "19": {
     "title": "Thaye",
     "image": "/ghosts/thaye.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Entra con gran fuerza, pero se vuelve más débil con el tiempo y las interacciones con los jugadores.",
+    "tests": [
+      "Orbes espectrales",
+      "Escritura fantasmal",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/thaye.mp4"
   },
   "20": {
     "title": "Yokai",
     "image": "/ghosts/Yokai.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Se enfurece al oír a los jugadores hablar, lo que aumenta sus posibilidades de iniciar una cacería.",
+    "tests": [
+      "Spirit Box",
+      "Orbes espectrales",
+      "Proyector D.O.T.S."
+    ],
+    "video": "/ghosts/Videos/yokai.mp4"
   },
   "21": {
     "title": "Yurei",
     "image": "/ghosts/Yurei.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Reduce la cordura más rápido que otros fantasmas. Puede ser contenido con incienso para detener su actividad.",
+    "tests": [
+      "Orbes espectrales",
+      "Tempreaturas heladas",
+      "Proyector D.O.T.S."
+    ]
   },
   "22": {
     "title": "Pesadilla",
     "image": "/ghosts/Pesadilla.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Es más poderoso en la oscuridad y tiene más probabilidades de atacar cuando no hay luz.",
+    "tests": [
+      "Spirit Box",
+      "Orbes espectrales",
+      "Escritura fantasmal"
+    ]
   },
   "23": {
     "title": "Raiju",
     "image": "/ghosts/Raiju.jpg",
-    "description": "132",
-    "tests": [],
-    "video": ""
+    "description": "Se vuelve más rápido en la cercanía de dispositivos electrónicos.",
+    "tests": [
+      "EMF 5",
+      "Orbes espectrales",
+      "Proyector D.O.T.S."
+    ]
   },
   "24": {
     "title": "Onryo",
     "image": "/ghosts/Onryo.jpg",
-    "description": "123",
-    "tests": [],
-    "video": ""
+    "description": "Se dice que es el espíritu vengativo. Puede desencadenar ataques si se apagan velas o fuentes de luz.",
+    "tests": [
+      "Spirit Box",
+      "Orbes espectrales",
+      "Tempreaturas heladas"
+    ],
+    "video": "/ghosts/Videos/onryo.mp4"
   }
 }
