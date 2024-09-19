@@ -7,6 +7,7 @@ import { Maps } from './components/Maps/Maps';
 import Ghosts from './components/Ghost/Ghosts';
 import Objects from './components/Objects/Objects';
 import { NotFound } from './components/404/NotFound';
+import ObjetosMalditos from './components/Cursed_Objects/objetosMalditos';
 import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
               </section>
               <section id="objects">
                 <Objects />
+              </section>
+              <section id='c-objects'>
+                <ObjetosMalditos/>
               </section>
             </>
           }

@@ -15,7 +15,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-scroll": "^1.9.0",
-    "sweetalert2": "^11.14.0"
+    "sweetalert2": "^11.14.0",
+    "sweetalert2-react-content": "^5.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

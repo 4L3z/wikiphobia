@@ -1,0 +1,140 @@
+.objetos-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #140f0f;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.objetos-section h1 {
+  font-size: 2rem;
+  font-family: Escritura, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.objetos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+.objetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el minmax para hacerlas más anchas */
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.objeto-card {
+  position: relative;
+  height: 150px; /* Ajusta la altura para que sea más baja */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.objeto-card:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  font-family: Escritura, sans-serif;
+  left: 0;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.objeto-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay span {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+} 
+
+
+
+.item{
+  margin-bottom: 20px;
+  padding: 5.7px;
+  border-bottom: #333 0.5px solid;
+}
+
+
+
+.swal2-content{
+  width: 700px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 2px solid red;
+}
+
+td {
+  border-bottom: 1px solid #333;
+}
+
+
+
+
+
+/* Responsivo */
+
+@media (max-width: 1024px){
+  .objetos-section {
+    padding: 10px;
+    height: 100vh;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .objetos-section {
+    height: auto;
+    padding: 10px;
+  }
+  .objetos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Reduce el tamaño mínimo de las tarjetas */
+    gap: 10px;
+  }
+
+  .objeto-card {
+    height: 120px; /* Reduce la altura en pantallas más pequeñas */
+  }
+
+  .objetos-section h1 {
+    font-size: 1.5rem;
+  }
+}
