@@ -32,6 +32,18 @@ export default function Ghosts() {
         const ghostInfo = ghostData[ghostId];
         if (ghostInfo) {
             const testsList = ghostInfo.tests.map(test => `<li>${test}</li>`).join('');
+    
+            // Comprobar si hay un video y construir la sección del video si existe
+            const videoSection = ghostInfo.video ? `
+                <h3>Habilidad</h3>
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="${ghostInfo.video}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            ` : ''; // Si no hay video, videoSection será una cadena vacía
+    
             Swal.fire({
                 title: ghostInfo.title,
                 html: `
@@ -46,32 +58,33 @@ export default function Ghosts() {
                         <ul class="tests-list">
                             ${testsList}
                         </ul>
-                        <div class="video-wrapper">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        ${videoSection}
                     </div>
                 `,
                 showCloseButton: true,
                 width: '80%',
                 customClass: {
-                    popup: 'custom-swal-popup'
+                    popup: 'custom-swal-popup',
+                    title: 'custom-swal-title',
+                    htmlContainer: 'custom-swal-html'
                 }
             });
         }
     };
+    
+    
 
     return (
         <section id="ghosts" className="ghosts">
             <div className="container-ghosts">
                 <h1 className="ghosts-title">FANTASMAS</h1>
-                <h2 style={{ color: 'red' }} disabled>En proceso...</h2>
                 <div className="grid-ghosts">
                     {Object.keys(ghosts).map(ghostId => (
                         <div
                             key={ghostId}
                             className="ghost"
                             data-id={ghostId}
-                            // onClick={() => handleGhostClick(ghostId)}
+                            onClick={() => handleGhostClick(ghostId)}
                         >
                             <img src={ghosts[ghostId].image} alt={ghosts[ghostId].title} />
                             <div className="overlay-text-ghost">{ghosts[ghostId].title}</div>

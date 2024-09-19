@@ -88,41 +88,123 @@
     font-weight: bold;
   }
   
-/* Modal Content */
-.custom-swal-popup .modal-content {
-  text-align: center;
-  color: #fff;
-  background-color: #333;
+/* SweetAlert2 Custom Styles */
+.custom-swal-popup {
   padding: 20px;
-  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-.custom-swal-popup .image-wrapper {
-  text-align: center;
+.custom-swal-title {
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.custom-swal-popup .image-ghost {
-  max-width: 100%;
+/* Estilos del modal */
+.modal-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-wrapper img {
+  max-width: 150px;
   height: auto;
+  margin-bottom: 20px;
 }
 
-.custom-swal-popup .description {
-  font-family: Escritura, sans-serif;
-  color: #fff;
+.description {
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.custom-swal-popup .tests-list {
+.tests-list {
   list-style-type: none;
   padding: 0;
-  margin: 20px 0;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.custom-swal-popup .tests-list li {
-  margin: 10px 0;
+/* Títulos */
+.ghost-title {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.custom-swal-popup .video-wrapper {
-  text-align: center;
-  margin-top: 20px;
+.video-title {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el video */
+.video-wrapper video {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.modal-content{
+  max-width: 100%;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .modal-content {
+      gap: 15px;
+  }
+
+  .image-wrapper img {
+      max-width: 120px;
+  }
+
+  .description {
+      font-size: 14px;
+      max-width: 90%;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  h3 {
+      font-size: 18px;
+  }
+
+  .video-wrapper video {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-wrapper img {
+      max-width: 100px;
+  }
+
+  .description {
+      font-size: 14px;
+      max-width: 100%;
+  }
+
+  h2 {
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 16px;
+  }
+
+  .video-wrapper video {
+      max-width: 100%;
+      height: auto;
+  }
 }
