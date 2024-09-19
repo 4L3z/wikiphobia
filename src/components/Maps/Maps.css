@@ -89,6 +89,66 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+/* Alertas (Modal)*/
+/* Titulo del modal */
+.swal2-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: Escritura, sans-serif;
+  /* Aplicar la fuente personalizada */
+}
+
+/* Estilo para las imágenes dentro del modal */
+.swal2-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.swal2-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 70vh; /* Altura máxima */
+  overflow-y: auto; /* Habilita el scroll */
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Distribuye en varias filas si hay muchas imágenes */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px; /* Ajustar tamaño de las imágenes */
+  flex: 1 1 300px; /* Hace que las imágenes sean flexibles */
+}
+
+.image-map {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un toque estético */
+}
+
+
+.swal2-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.lista-modal{
+  list-style-position: inside;
+}
+
+
+
+
 /* Responsive para pantallas más pequeñas */
 @media (max-width: 1440px) {
   .grid {

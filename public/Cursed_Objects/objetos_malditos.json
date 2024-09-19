@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Cartas del Tarot",
+    "image": "/Cursed_Objects/cartas_del_tarot.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, esta se caracteriza por ser 10 cartas diferentes cada una con sus habilidades. También en el juego salen 10 unidades de cartas, pero se puede repetir una misma carta varias veces.",
+    "video": "/Cursed_Objects/Videos/cartasdetarot.mp4",
+    "datos": [
+      "Alas de Resurrección: reviven a un compañero muerto. Si no hay nadie muerto se guarda y cuando muera alguien a los 5 segundos revive, aunque siga la caza del fantasma. Si hay varias personas muertas revive el primero que murió.",
+      "El Ahorcado: mata directamente a la persona que saco la carta.",
+      " El demonio: evento del fantasma ya sea presencial o con la nube que se acerca a un jugador y le sopla.",
+      "El Ermitaño: durante un breve periodo de tiempo, el fantasma no atacara.",
+      " El Sol: restaura el 100% de cordura de la persona que saque la carta.",
+      " La Luna: quita el 100% de cordura de la persona que saque la carta.",
+      "La Torre: provoca interacciones durante 20 segundos del fantasma. Puede tocarte puerta, interruptor, escribir en el libro, pasar por el d.o.t.s o tirar algún objeto.",
+      "Muerte: inmediatamente y sin tiempo de gracia (tiempo de gracia son los 3 segundos que el fantasma tiene al iniciar caza, camina sobre si mismo y no avanza hasta pasado esos segundos) inicia caza desde donde esté.",
+      "Ruleta de la fortuna en verde: recupera un 25% de cordura la persona que saco la carta.",
+      "Ruleta de la fortuna en roja: pierde un 25% de cordura la persona que saco la carta."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ouija",
+    "image": "/Cursed_Objects/ouija.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, este se caracteriza por ser una manera de comunicación directa con el fantasma.",
+    "video": "/Cursed_Objects/Videos/ouija.mp4",
+    "datos": [
+      "Cada pregunta a la ouija baja cordura a quien le realiza la pregunta.",
+      " Si no tienes cordura, no puedes realizar preguntas. Si llegase a pasar, que realices una pregunta sin cordura, la ouija se romperá sin darte respuesta.",
+      "Es muy útil para saber la habitación donde esta el fantasma y para preguntar por el hueso.",
+      "También es muy útil sin el fantasma no te da interacciones para foto, ya que cada pregunta se puede realizar una foto de interacción 3 estrellas.",
+      "Al realizar preguntas puedes poner el aparato de EMF, si el fantasma tuviera la prueba de EMF5 te lo podría dar con las preguntas."
+    ],
+    "type": "table",
+    "label1": "Preguntas",
+    "label2": "Cordura perdida",
+    "tableData": [
+      { "question": "¿Cuál es tu habitación favorita?", "sanityLoss": "50% de cordura" },
+      { "question": "¿Dónde estas?", "sanityLoss": "50% de cordura" },
+      { "question": "¿Dónde esta el hueso?", "sanityLoss": "20% de cordura" },
+      { "question": "¿Dónde moriste?", "sanityLoss": "20% de cordura" },
+      { "question": "¿Te gustan las galletas?", "sanityLoss": "20% de cordura" },
+      { "question": "MARCO – Responde POLO", "sanityLoss": "5% de cordura" },
+      { "question": "TOC TOC", "sanityLoss": "5% de cordura" },
+      { "question": "¿Cuántos años tienes?", "sanityLoss": "5% de cordura" },
+      { "question": "¿Qué quieres?", "sanityLoss": "5% de cordura" },
+      { "question": "¿Estoy loco?", "sanityLoss": "Responde NO 100%, talvez desde el 99% hasta el 10%, por debajo YES" },
+      { "question": "¿Qué cordura tengo?", "sanityLoss": "30% de cordura" },
+      { "question": "ESCONDITE", "sanityLoss": "Comienza una cuenta atrás y cuando llega a 0 comienza un ataque y se rompe la ouija" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mano de Mono",
+    "image": "/Cursed_Objects/mono.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, esta se caracteriza por tener la habilidad de conceder deseos, pero con consecuencias...",
+    "video": "/Cursed_Objects/Videos/manomono.mp4",
+    "datos": [
+      "El listado de deseos se encuentra esparcido por el mapa de Sunny Meadows.",
+      "Puedes utilizar el chat en modo text para poder ver el listado.",
+      "Los deseos pueden ser algo bueno, algo neutro o algo malo."
+    ],
+    "type": "table",
+    "label1": "Deseos",
+    "label2": "Consecuencias",
+    "tableData": [
+      { "question": "Deseo ver al fantasma", "sanityLoss": "El fantasma hace aparición, al que pide el deseo lo deja ciego (lo ve todo muy oscuro) en cacería, cuando acaba ve bien (la cacería es maldita). No quita cordura." },
+      { "question": "Deseo actividad", "sanityLoss": "Cierra la puerta de la calle durante 1 minuto y 40 segundos, rompe los plomos y no quita cordura." },
+      { "question": "Deseo atrapar al fantasma", "sanityLoss": "Cierra las puertas de donde se encuentre el fantasma y luego inicia ataque (duración 55segundos) la cacería no seria maldita, no quita cordura." },
+      { "question": "Deseo tener cordura", "sanityLoss": "Todos los jugadores se ponen con el 50% de cordura, ya tengan mas o menos cordura. El fantasma cambia de habitación." },
+      { "question": "Deseo irme", "sanityLoss": "Este deseo se puede pedir en pleno ataque y la puerta de salida de la casa se abrirá y podrás salir sin problema, al que pide el deseo le da lentitud. No quita cordura." },
+      { "question": "Deseo revivir a un amigo", "sanityLoss": "50% de probabilidad de morir al pedir el deseo. No quita cordura." },
+      { "question": "Deseo estar a salvo", "sanityLoss": "Cualquier closet cerrado cercano, se despejara y podrás esconderte. No quita cordura" },
+      { "question": "Deseo saber más", "sanityLoss": "Te quita una prueba, la cual el fantasma no te dará, pero el fantasma comenzara ataque cerca tuya y tu te quedaras ciego y sordo durante toda la partida. No quita cordura." },
+      { "question": "Deseo cambiar el clima", "sanityLoss": "Puedes cambiar el clima a soleado, lluvioso, con viento, nieve o despejado esto tiene una penalización de 25% de cordura a quien pide el deseo." },
+      { "question": "Deseo lo que sea", "sanityLoss": "Se escogerá un deseo al azar entre todos los que hay." }
+    ]
+    },
+  {
+    "id": 4,
+    "name": "Caja Musical",
+    "image": "/Cursed_Objects/caja_musical.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, esta se caracteriza por una melodía que hace cantar al fantasma, haciendo así más fácil la localización de su habitación.",
+    "video": "/Cursed_Objects/Videos/cajamusical.mp4",
+    "datos": [
+      "Los fantasmas se sienten atraído hacia la caja de música, por lo que si esta a menos de 5 metros se materializa y va hacia la caja, rompiéndola y provocando una cacería.",
+      "Cada segundo que suena la caja drena un 4% de cordura a todos los que estén en un radio de 3 metros circular a la caja.",
+      " Si tiras la caja al suelo cuando esta sonando se rompe y comienza una cacería.",
+      "La caja suena 28 segundos si tu cordura esta al 100%, si tu cordura baja a cero y quedan segundos se rompe y comienza cacería.",
+      "Si la cordura promedia no esta en el rango de ataque del fantasma una vez termine la melodía, NO comenzara la caza.",
+      "Es un objeto maldito muy útil tanto para saber la localización del fantasma como para hacer la foto al fantasma."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Espejo Encantado",
+    "image": "/Cursed_Objects/espejo_encantado.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, este se caracteriza por por poder ver desde la visión del fantasma este donde esté.",
+    "video": "/Cursed_Objects/Videos/espejo.mp4",
+    "datos": [
+      "Mirar por el espejo drenara un 20% de cordura de golpe.",
+      "Cada segundo que veamos por el espejo nos drenara un 10% de cordura aprox.",
+      "Si nos consume toda la cordura el espejo se romperá y comenzara caza.",
+      "Es muy útil para dar rápido con la habitación del fantasma.",
+      "También es muy útil para realizar la prueba de tener menos del 25% de cordura promedio."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Muñeca Vudú",
+    "image": "/Cursed_Objects/muñeca_vudu.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, este se caracteriza por poder hacer que el fantasma realice hasta 10 interacciones.",
+    "video": "/Cursed_Objects/Videos/muñeco.mp4",
+    "datos": [
+      "Cada aguja nos baja un 10% la cordura.",
+      "Si pinchas en el corazón te quita un 20% y nos inicia caza.",
+      "Los pinchazos son aleatorios, no puedes controlar cual pinchas.",
+      "Si no tienes cordura o la pierdes toda con algún pinchazo se pincharan todas e iniciara caza.",
+      "Como dato curioso este objeto siempre estuvo, pero no tenia utilidad a parte de foto de interacción."
+
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Circulo De Invocación",
+    "image": "/Cursed_Objects/circulo.png",
+    "description": "Siendo uno de los 7 Objetos Malditos, este se caracteriza por ser un circulo de invocación directo del fantasma.",
+    "video": "/Cursed_Objects/Videos/circulo.mp4",
+    "datos": [
+      "Cada vela que se encienda baja un 16% la cordura a la persona que encienda la vela y a quien este en un radio de 3 metros.",
+      "Se puede utilizar para bajar la cordura ya que si no enciendes todas las velas, se apagaran cuando pase de 2 minutos y 30 segundos a 5 minutos en un periodo random.",
+      "Es muy útil para poder realizar la foto del fantasma. En cuanto se encienda la última vela, puedes hacer una foto en esos 3 segundos de gracia.",
+      "Si no se tiene nada de cordura no se puede encender las velas, se apagarían al segundo. Si tienes menos del 16% pero no 0% y enciendes la ultima vela del circulo, el fantasma se mostrara y atacara sin tiempo de preparación como es habitual en el circulo.",
+      "También es muy útil si la posibilidad del fantasma es Ente, ya que desaparecerá  por la foto. O si es la silueta del fantasma en modo sombra, seria una Sombra."
+    ]
+  }
+]

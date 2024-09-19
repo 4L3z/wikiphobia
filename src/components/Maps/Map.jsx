@@ -14,7 +14,7 @@ export function MapsModal({ mapData }) {
 
       const infoHtml = mapData.info.map(info => `
         <p>${info.title}</p>
-        <ul>${info.items.map(item => `<li>${item}</li>`).join('')}</ul>
+        <ul class="lista-modal">${info.items.map(item => `<li>${item}</li>`).join('')}</ul>
       `).join('');
 
       Swal.fire({

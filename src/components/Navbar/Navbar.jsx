@@ -27,18 +27,21 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <ul>
-        <li className={activeSection === "homepage" ? "active" : ""} data-name="INICIO">
+      <ul className="navbar-list">
+        <li className={`navbar-item ${activeSection === "" ? "active" : ""}`} data-name="INICIO">
           <a href="#homepage"></a>
         </li>
-        <li className={activeSection === "maps" ? "active" : ""} data-name="MAPAS">
+        <li className={`navbar-item ${activeSection === "maps" ? "active" : ""}`} data-name="MAPAS">
           <a href="#maps"></a>
         </li>
-        <li className={activeSection === "ghosts" ? "active" : ""} data-name="FANTASMAS">
+        <li className={`navbar-item ${activeSection === "ghosts" ? "active" : ""}`} data-name="FANTASMAS">
           <a href="#ghosts"></a>
         </li>
-        <li className={activeSection === "objects" ? "active" : ""} data-name="OBJETOS">
+        <li className={`navbar-item ${activeSection === "objects" ? "active" : ""}`} data-name="OBJETOS">
           <a href="#objects"></a>
+        </li>
+        <li className={`navbar-item ${activeSection === "c-objects" ? "active" : ""}`} data-name="OBJETOS MALDITOS">
+          <a href="#c-objects"></a>
         </li>
       </ul>
     </nav>

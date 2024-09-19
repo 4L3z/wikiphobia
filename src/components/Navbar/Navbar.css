@@ -6,12 +6,12 @@
     z-index: 999;
   }
   
-  ul {
+  .navbar-list {
     list-style-type: none;
     padding: 0;
   }
   
-  li {
+  .navbar-item {
     margin: 20px 0;
     position: relative;
     width: 20px;
@@ -20,7 +20,7 @@
     cursor: pointer;
   }
   
-  li a {
+  .navbar-item a {
     display: block;
     width: 20px;
     height: 20px;
@@ -32,15 +32,15 @@
     transition: background-color 0.3s;
   }
   
-  li.active a {
+  .navbar-item.active a {
     background-color: rgb(245, 245, 245); /* Color del punto cuando está activo */
   }
   
-  li:hover a {
+  .navbar-item:hover a {
     background-color: white; /* Color del punto al pasar el mouse */
   }
   
-  li::before {
+  .navbar-item::before {
     content: attr(data-name); /* Se muestra el nombre de la sección al pasar el mouse */
     position: absolute;
     right: 30px;
