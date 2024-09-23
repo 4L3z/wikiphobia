@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "nombre": "Linterna",
+      "imagen": "ruta/imagen/linterna.jpg",
+      "tiers": [
+        { "nivel": "Tier 1", "precio": 20 },
+        { "nivel": "Tier 2", "precio": 30 },
+        { "nivel": "Tier 3", "precio": 40 }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Libro de Escritura",
+      "imagen": "ruta/imagen/libro.jpg",
+      "tiers": [
+        { "nivel": "Tier 1", "precio": 50 },
+        { "nivel": "Tier 2", "precio": 75 },
+        { "nivel": "Tier 3", "precio": 100 }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Crucifijo",
+      "imagen": "ruta/imagen/crucifijo.jpg",
+      "tiers": [
+        { "nivel": "Tier 1", "precio": 100 },
+        { "nivel": "Tier 2", "precio": 150 },
+        { "nivel": "Tier 3", "precio": 200 }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Cámara de Fotos",
+      "imagen": "ruta/imagen/camara.jpg",
+      "tiers": [
+        { "nivel": "Tier 1", "precio": 150 },
+        { "nivel": "Tier 2", "precio": 200 },
+        { "nivel": "Tier 3", "precio": 250 }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Termómetro",
+      "imagen": "ruta/imagen/termometro.jpg",
+      "tiers": [
+        { "nivel": "Tier 1", "precio": 40 },
+        { "nivel": "Tier 2", "precio": 60 },
+        { "nivel": "Tier 3", "precio": 80 }
+      ]
+    }
+  ]
+  
