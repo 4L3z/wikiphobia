@@ -1,0 +1,66 @@
+{
+    "consejos": [
+        {
+            "id": 1,
+            "titulo": "Tips para comenzar a jugar",
+            "descripcion": "Comenzar a jugar a Phasmophobia puede ser una experiencia emocionante y aterradora. Aquí tienes algunos consejos para empezar con buen pie:",
+            "listaNumerica": [
+                "Familiarízate con el equipo: En esta guía puedes encontrar toda la información necesaria para saber la funcionalidad de cada objeto en Phasmophobia, los cuales son necesarios no solo para la identificación del fantasma, también son útiles en muchísimos aspectos.",
+                "Conoce los tipos de fantasmas: Conocer los diferentes tipos de fantasmas y sus habilidades es una gran ayuda no solo para la identificación de los mismos, sino también para la seguridad de los jugadores.",
+                "Empieza en dificultades bajas: Al comenzar a jugar a Phasmophobia, es necesario comenzar a jugar en dificultades bajas, ya que el jugador no cuenta con los recursos necesarios para tener un buen equipamiento, y el hacerlo facilita el aprendizaje de las mecánicas del Juego."
+            ],
+            "lista_puntos": []
+        },
+        {
+            "id": 2,
+            "titulo": "Pasos a tomar en todos los mapas",
+            "descripcion": " ",
+            "listaNumerica": [
+                "Localizar el Generador: En todos los mapas existe un generador, el cual debe mantenerse encendido para que la electricidad del edificio fluya y para que la temperatura suba, lo cual hace el localizar el fantasma una tarea más simple.",
+                "Encontrar la habitación del fantasma: El fantasma siempre posee una habitación, los jugadores deben encontrar la misma para poder proceder con la identificación del mismo",
+                "Buscar el objeto maldito y el hueso: Este paso es opcional, pero el objeto maldito es muy útil para utilizar, siempre que seamos cautelosos. En cuanto al hueso, podemos agarrarlo y sacarle una foto para tener más dinero al terminar la expedición."
+            ]
+        },
+        {
+            "id": 3,
+            "titulo": "Como jugar en mapas pequeños y grandes",
+            "descripcion": " ",
+            "listaNumerica": [
+                "En mapas pequeños:Jugar en mapas pequeños tiene su dificultad, primero, el saber el tipo de fantasma cambia tu manera de jugar contra él, pero en términos generales, al jugar en mapas pequeños tienes que planificar tus rutas de escape cuidadosamente, y tener en cuenta lugares para poder esconderte por si el fantasma caza. Es fundamental el uso de los inciensos en mapas pequeños.",
+          "En mapas grandes: Al estar en un mapa grande, tenemos más opciones para escapar y escondernos, el gran problema que tienen estos es el manejo de la cordura y el encontrar el generador, el objeto maldito y el hueso. Hay que tener especial cuidado con los fantasmas rápidos, ya que en la mayoría de casos no podremos escapar de ellos simplemente corriendo. En estos mapas lo más útil son las pastillas para la cordura, aunque el incienso también sirve.","Controlar el nivel de cordura"
+            ]
+        },
+        {
+            "id": 4,
+            "titulo": "Consejos para dificultades más altas",
+            "descripcion": " ",
+            "listaNumerica": [
+                "En las dificultades más altas se nos ocultarán pruebas necesarias para identificar al fantasma, por lo que la estrategia principal para identificarlos es determinar la habilidad que poseen, en esta guía puedes encontrarlas en el apartado de fantasmas",
+                "El fantasma será más agresivo, por un lado, podemos tomar provecho de esto para identificar sus comportamientos y su habitación, pero debemos tener cautela para que no nos atrape.",
+                "Cuidar la cordura es lo más importante, es muy fácil perder cordura en dificultades más altas, lo recomendado es prender las luces en las habitaciones más concurridas y consumir pastillas para reducir los ataques si así lo queremos.",
+                "Llevar siempre con nosotros un encendedor y un incienso (Para más seguridad)"
+            ]
+        },
+        {
+            "id": 5,
+            "titulo": "Como tener una partida perfecta",
+            "descripcion": "Una partida perfecta es algo para destacar, ya que es difícil cumplir con los requisitos para la misma.",
+            "listaPuntos": [
+                "El primer paso es identificar el fantasma, esto es algo obvio, pero hay que especificarlo, de lo contrario, no se nos dará el multiplicador de dinero al irnos, y no contará como una partida perfecta.",
+                "El segundo paso es encontrar el hueso, aunque parezca simple, en mapas más grandes es complicado encontrarlo. Antes de agarrarlo debemos sacarle una foto.",
+                "El tercer paso es rellenar el libro con fotos 3 estrellas, ya sea con interacciones generales, apariciones del fantasma o pruebas, debemos de tener el libro lleno.",
+                "El cuarto y último paso es completar las misiones 3 misiones asignadas, estas suelen ser difíciles, pero para tener una partida perfecta es necesario completarlas."
+            ]
+        },
+        {
+            "id": 6,
+            "titulo": "Cómo ganar dinero de manera fácil",
+            "descripcion": "Hay varias formas de conseguir dinero dentro del juego, pero en esta guía te explicaremos cuáles son las más rápidas",
+            "listaPuntos": [
+                "Completar las misiones semanales, estos retos nos dan bastante dinero y tienden a ser fáciles de realizar.",
+                "Jugar con amigos, esto es de bastante ayuda ya que los gastos por el equipamiento se dividen, por lo que, si alguien muere, no pierden todo, y se nos paga la misma cantidad que cuando jugamos solos.",
+                "Jugar partidas customizadas, nos da un multiplicador al sumarle dificultad al juego, lo cuál hace que ganemos dinero de una manera fácil."
+            ]
+        }
+    ]
+}

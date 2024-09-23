@@ -43,6 +43,9 @@ const Navbar = () => {
         <li className={`navbar-item ${activeSection === "c-objects" ? "active" : ""}`} data-name="OBJETOS MALDITOS">
           <a href="#c-objects"></a>
         </li>
+        <li className={`navbar-item ${activeSection === "tips" ? "active" : ""}`} data-name="CONSEJOS">
+          <a href="#tips"></a>
+        </li>
       </ul>
     </nav>
   );

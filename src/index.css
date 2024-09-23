@@ -1,11 +1,18 @@
 body {
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 
+body.swal2-shown > [aria-hidden='true'] {
+  transition: 0.1s filter;
+  filter: blur(3px);
+  margin: 0;
+  padding: 0;
+}
 
 /* Fuentes */
 @font-face {

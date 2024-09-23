@@ -9,6 +9,8 @@ import Objects from './components/Objects/Objects';
 import { NotFound } from './components/404/NotFound';
 import ObjetosMalditos from './components/Cursed_Objects/objetosMalditos';
 import Navbar from './components/Navbar/Navbar';
+// import Tienda from './components/Tienda/Tienda';
+import Consejos from './components/Consejos/Tips';
 function App() {
   return (
     <Router>
@@ -33,6 +35,10 @@ function App() {
               <section id='c-objects'>
                 <ObjetosMalditos/>
               </section>
+              <section id="tips">
+              <Consejos/>
+              </section>
+              {/* <Tienda/> */}
             </>
           }
         />
