@@ -9,8 +9,10 @@ import Objects from './components/Objects/Objects';
 import { NotFound } from './components/404/NotFound';
 import ObjetosMalditos from './components/Cursed_Objects/objetosMalditos';
 import Navbar from './components/Navbar/Navbar';
-// import Tienda from './components/Tienda/Tienda';
+import Tienda from './components/Tienda/Tienda';
 import Consejos from './components/Consejos/Tips';
+import VideoGuides from './components/VideoTips/VideoGuides';
+import Requisitos from './components/Requisitos/Requisitos';
 function App() {
   return (
     <Router>
@@ -33,12 +35,18 @@ function App() {
                 <Objects />
               </section>
               <section id='c-objects'>
-                <ObjetosMalditos/>
+                <ObjetosMalditos />
               </section>
               <section id="tips">
-              <Consejos/>
+                <Consejos />
               </section>
-              {/* <Tienda/> */}
+              <section id="video_guides">
+                <VideoGuides />
+              </section>
+              <section id='requirements'>
+                <Requisitos />
+              </section>
+              <Tienda/>
             </>
           }
         />

@@ -46,6 +46,10 @@ const Navbar = () => {
         <li className={`navbar-item ${activeSection === "tips" ? "active" : ""}`} data-name="CONSEJOS">
           <a href="#tips"></a>
         </li>
+        <li className={`navbar-item ${activeSection === "video-guides" ? "active" : ""}`} data-name="VIDEO-GUIAS">
+          <a href="#video-guides"></a>
+        </li>
+
       </ul>
     </nav>
   );

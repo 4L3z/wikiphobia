@@ -14,6 +14,16 @@ const Tienda = () => {
   return (
     <div className="tienda-container">
       <h1>TIENDA</h1>
+      <div className="iframe-container">
+        <h2>COMPRA EL JUEGO AQUÍ!!</h2>
+        <div className="responsive-iframe">
+          <iframe 
+            src="https://store.steampowered.com/widget/739630/" 
+            frameBorder="0" 
+            title="Compra el juego"
+          ></iframe>
+        </div>
+      </div>
       <Carrito carrito={carrito} />
       
       <div className="objetos-grid">
@@ -21,6 +31,7 @@ const Tienda = () => {
           <Objeto key={index} objeto={objeto} agregarAlCarrito={agregarAlCarrito} />
         ))}
       </div>
+      
     </div>
   );
 };

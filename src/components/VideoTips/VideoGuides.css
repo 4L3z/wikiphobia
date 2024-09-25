@@ -1,0 +1,40 @@
+/* VideoGuides.css */
+.video-guides-section {
+    background-color: #4a4a4a;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .title-video {
+    color: white;
+    font-family: Escritura, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .guides-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .guide-card {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .guide-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
