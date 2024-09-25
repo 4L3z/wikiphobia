@@ -1,0 +1,91 @@
+/* Estilos generales */
+.requisitos-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #555;
+    color: white;
+    height: 70vh;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .requirements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .requirement-box {
+    background-color: white;
+    color: black;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .requirement-box h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .requirement-box ul {
+    list-style-type: none;
+  }
+  
+  .requirement-box li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .vs h2 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .vs {
+    width: 10%;
+    text-align: center;
+  }
+  
+  /* Estilos responsive */
+  @media (max-width: 768px) {
+    .requirements {
+      flex-direction: column;
+    }
+  
+    .requirement-box {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .vs {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .requirement-box h2 {
+      font-size: 1.5rem;
+    }
+  
+    .requirement-box li {
+      font-size: 0.9rem;
+    }
+  
+    .vs h2 {
+      font-size: 2.5rem;
+    }
+  }
+  
