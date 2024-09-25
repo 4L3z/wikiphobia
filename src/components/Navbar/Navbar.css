@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    right: 10px; /* Cambiamos la posición del navbar a la derecha */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 20px 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: transparent; /* El fondo del cuadrado está oculto */
+    cursor: pointer;
+  }
+  
+  .navbar-item a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: gray; /* Color del punto */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-item.active a {
+    background-color: rgb(245, 245, 245); /* Color del punto cuando está activo */
+  }
+  
+  .navbar-item:hover a {
+    background-color: white; /* Color del punto al pasar el mouse */
+  }
+  
+  .navbar-item::before {
+    content: attr(data-name); /* Se muestra el nombre de la sección al pasar el mouse */
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+  }
+  
+  li:hover::before {
+    opacity: 1;
+  }
+  

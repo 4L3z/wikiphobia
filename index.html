@@ -1,108 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WikiPhobia</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
-<body>
-    <!-- SideBar -->
-    <div id="sidebar">
-        <div class="toggle-btn">
-          <span><i class="fa-solid fa-bars" ></i></span>
-        </div>
-        <ul>
-          <li class="menutitle">
-            <p style="font-size: 50px; padding: 0; margin: 0;">Menu</p>
-          </li>
-          <li ><a href="#maps">MAPAS</a></li>
-          <li ><a href="#ghosts">FANTASMAS</a></li>
-          <li ><a href="#objects">OBJETOS</a></li>
-          <li ><a href="#cursed_objects">OBJETOS MALDITOS</a></li>
-          <li ><a href="#tips">CONSEJOS</a></li>
-          <li ><a href="#guides">VIDEO GUIAS</a></li>
-          <li ><a href="#requirements">REQUISITOS</a></li>
-          <li ><a href="#shop">TIENDA</a></li>
-        </ul>
-      </div>
-    
-    <!-- Inicio -->
-    <section class="homepage">
-        <div class="home-container">
-        <div class="title">
-            <h1>GUIA PHASMOPHOBIA</h1>
-        </div>
-        <div class="stars">
-            <img src="src/homepage/star.png" alt="image not found 404">
-            <img src="src/homepage/star.png" alt="image not found 404" onclick="showScreamer()">
-            <img src="src/homepage/star.png" alt="image not found 404">
-    </div>
-    </section>
-    <section id="maps" class="mapas">
-      <div class="container-maps">
-        <h1 class="mapas-title">MAPAS</h1>
-        <div class="grid">
-            <div class="map" data-id="1">
-              <img src="src/maps/Willow Street House.jpg" alt="Willow">
-              <div class="overlay-text">Willow Street House</div>
-            </div>
-            <div class="map" data-id="2"><img src="src/maps/Tanglewood Street House.jpg" alt="Willow">
-              <div class="overlay-text">Tanglewood Street House</div>
-            </div>
-            <div class="map" data-id="3">            
-              <img src="src/maps/Ridgeview Road House.jpg" alt="Willow">
-              <div class="overlay-text">Ridgeview Road House</div>
-            </div>
-            <div class="map" data-id="4">            
-              <img src="src/maps/Edgefield Street House.jpg" alt="Willow">
-              <div class="overlay-text">Edgefield Street House</div>
-            </div>
-            <div class="map" data-id="5">            
-              <img src="src/maps/Point Hope.png" alt="Willow">
-              <div class="overlay-text">Point Hope</div>
-            </div>
-            <div class="map" data-id="6">            
-              <img src="src/maps/Maple Lodge Campsite.png" alt="Willow">
-              <div class="overlay-text">Maple Lodge Campsite</div>
-            </div>
-            <div class="map" data-id="7">            
-              <img src="src/maps/Camp Woodwind.jpg" alt="Willow">
-              <div class="overlay-text">Camp Woodwind</div>
-            </div>
-            <div class="map" data-id="8">            
-              <img src="src/maps/Grafton Farmhouse.jpg" alt="Willow">
-              <div class="overlay-text">Grafton Farmhouse</div>
-            </div>
-            <div class="map" data-id="9">            
-              <img src="src/maps/Bleasdale Farmhouse.jpg" alt="Willow">
-              <div class="overlay-text">Bleasdale Farmhouse</div>
-            </div>
-            <div class="map" data-id="10">          
-                <img src="src/maps/Brownstone High School.jpg" alt="Willow">
-              <div class="overlay-text">Brownstone High School</div>
-            </div>
-            <div class="map" data-id="11">           
-               <img src="src/maps/Prision.jpg" alt="Willow">
-              <div class="overlay-text">Prision</div>
-            </div>
-            <div class="map" data-id="12">           
-               <img src="src/maps/Sunny Meadows Restricted.jpg" alt="Willow">
-              <div class="overlay-text">Sunny Meadows Restricted</div>
-            </div>
-            <div class="map" data-id="13">            
-              <img src="src/maps/Sunny Meadows.jpg" alt="Willow">
-              <div class="overlay-text">Sunny Meadows</div>
-            </div>
-        </div>
-    </div>
-    </section>
-
-
-
-    <script src="script.js"></script>
-    <script src="modal.js"></script>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

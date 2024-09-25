@@ -1,0 +1,169 @@
+[
+    {
+      "id": 1,
+      "title": "Proyector D.O.T.S",
+      "price": "",
+      "description": "Este sensor de movimiento infrarrojo fue ampliamente adaptado para proyectar luz. Es pequeño, compacto y se adhiere a la mayoría de superficies.",
+      "category": "Electrónico",
+      "image": "/Objects/Nivel 2/DOTS-Tier-2.png"
+    },
+    {
+      "id": 2,
+      "title": "Medidor EMF",
+      "price": "",
+      "description": "El medidor K2 tiene más rango y 5 luces LED que muestran lecturas EMF, además de un módulo adicional con altavoz.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/EMF-Tier-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Libro de Escritura",
+      "price": "",
+      "description": "Mejores páginas y bolígrafo, los fantasmas se fijan más haciendo que los tiempos sean algo inferiores para obtener la prueba. Si el fantasma no tuviese esta prueba lanzaría el libro por los aires, útil para descartar fantasmas sin escritura.",
+      "category": "No Electrónico",
+        "image": "/Objects/Nivel 2/Libro-de-escritura-Tier-2.png"
+    },
+    {
+      "id": 4,
+      "title": "Spirit Box",
+      "price": "",
+      "description": "Altavoz de alta calidad y más eficiente al escanear entre distintas frecuencias, logrando que las respuestas sean más fáciles de descifrar.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Spirit-box-Tier-2.png"
+    },
+    {
+      "id": 5,
+      "title": "Termómetro",
+      "price": "",
+      "description": "Termómetro digital mucho más rápido leyendo temperaturas. Dejar pulsado el clic derecho para obtener lectura de temperatura.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Termometro-Tier-2.png"
+    },
+    {
+      "id": 6,
+      "title": "Ultravioleta",
+      "price": "",
+      "description": "Barra luminosa de duración 60 segundos (luz fuerte), pasado 10 segundos que se vaya su potencia, se agita y se reactiva.",
+      "category": "No Electrónico",
+        "image": "/Objects/Nivel 2/Ultravioleta-Tier-2.png"
+    },
+    {
+      "id": 7,
+      "title": "Cámara de Vídeo",
+      "price": "",
+      "description": "Mejor calidad de imagen, mejor visión nocturna y más resistencia contra la interferencia paranormal. Se pueden visualizar orbes con ella.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Camara-de-video-Tier-2.png"
+    },
+    {
+      "id": 8,
+      "title": "Crucifijo",
+      "price": "",
+      "description": "Crucifijo de metal que puede bloquear hasta dos ataques, mayor rango de acción.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Crucifijo-Tier-2.png"
+    },
+    {
+      "id": 9,
+      "title": "Vela (Lumbre)",
+      "price": "",
+      "description": "Candelabro con tres velas con una duración de 10 minutos, reduce en un 50% la cordura que perdemos.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Vela-lumbre-Tier-2.png"
+    },
+    {
+      "id": 10,
+      "title": "Linterna",
+      "price": "",
+      "description": "Emite un foco de luz más brillante.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Linterna-Tier-2.png"
+    },
+    {
+      "id": 11,
+      "title": "Equipamiento de la Cabeza",
+      "price": "",
+      "description": "Equipamiento de cabeza que aporta una brillante luz.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Equipamiento-cabeza-Tier-2.png"
+    },
+    {
+      "id": 12,
+      "title": "Encendedor",
+      "price": "",
+      "description": "Mechero de gas con una duración de 5 minutos.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Encendedor-Tier-2.png"
+    },
+    {
+      "id": 13,
+      "title": "Incienso",
+      "price": "",
+      "description": "Esta versión aumenta el rango y la duración de la cremación. Ralentiza al fantasma durante 5 segundos en un ataque.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Incienso-Tier-2.png"
+    },
+    {
+      "id": 14,
+      "title": "Sensor de Movimiento",
+      "price": "",
+      "description": "Esta versión es configurable para detectar al fantasma en forma lineal o cónica.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Sensor-de-movimiento-Tier-2.png"
+    },
+    {
+      "id": 15,
+      "title": "Micrófono Parabólico",
+      "price": "",
+      "description": "Aumenta el rango de detección e incluye una pantalla para tener lecturas visuales de cuán fuertes son los sonidos.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Microfono-parabolico-Tier-2.png"
+    },
+    {
+      "id": 16,
+      "title": "Cámara de Fotos",
+      "price": "",
+      "description": "Reduce el tiempo entre capturas e incluye una pantalla para visualizar. La pantalla sufrirá interferencia durante ataques.",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Camara-de-fotos-Tier-2.png"
+    },
+    {
+      "id": 17,
+      "title": "Sal",
+      "price": "",
+      "description": "Esta versión contiene más sal y se puede esparcir en largas líneas para bloquear pasillos más anchos.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Sal-Tier-2.png"
+    },
+    {
+      "id": 18,
+      "title": "Cordura",
+      "price": "",
+      "description": "Permite recuperar la cordura más rápido.",
+      "category": "No Electrónico",
+      "consumable": true,
+        "image": "/Objects/Nivel 2/Cordura-Tier-2.png"
+    },
+    {
+      "id": 19,
+      "title": "Sensor de Sonido",
+      "price": "",
+      "description": "Esta versión del sensor puede adaptarse a tres tipos de tamaño (5, 10 y 15 metros).",
+      "category": "Electrónico",
+        "image": "/Objects/Nivel 2/Sensor-de-sonido-Tier-2.png"
+    },
+    {
+      "id": 20,
+      "title": "Trípode",
+      "price": "",
+      "description": "Incluye un motor rotacional para ajustar la visión desde la pantalla del camión.",
+      "category": "No Electrónico",
+        "image": "/Objects/Nivel 2/Tripode-Tier-2.png"
+    }
+  ]
+  
