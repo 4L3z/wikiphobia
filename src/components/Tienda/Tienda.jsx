@@ -12,6 +12,7 @@ const Tienda = () => {
   };
 
   return (
+    <section id='store'>
     <div className="tienda-container">
       <h1>TIENDA</h1>
       <div className="iframe-container">
@@ -33,6 +34,7 @@ const Tienda = () => {
       </div>
       
     </div>
+    </section>
   );
 };
 

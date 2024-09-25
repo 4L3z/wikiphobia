@@ -46,7 +46,9 @@ function App() {
               <section id='requirements'>
                 <Requisitos />
               </section>
+              <section id='store'> 
               <Tienda/>
+              </section>
             </>
           }
         />

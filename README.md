@@ -11,6 +11,30 @@ Bienvenido a WikiPhobia, la guía interactiva de *Phasmophobia* diseñada para a
 <img alt="SweetAlert" src="https://img.shields.io/badge/SWAL-Sweet%20Alert-orange"></a>
 </p>
 
+## Instalación
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/4L3z/wikiphobia.git
+   cd wikiphobia
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor localhost:
+
+   ```bash
+   npm run dev
+   ```
+
+   La pagina estará disponible en `http://localhost:5173`.
+
+
 ## Miembros del equipo CTA
 
 - **[Alejandro Palacios]** 

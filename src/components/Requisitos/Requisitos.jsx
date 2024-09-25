@@ -2,7 +2,7 @@ import './Requisitos.css';
 
 const Requisitos = () => {
   return (
-    <section className="requisitos-section">
+    <section className="requisitos-section" id='requirements'>
       <h1 className="title">REQUISITOS</h1>
       <div className="requirements">
         <div className="requirement-box">

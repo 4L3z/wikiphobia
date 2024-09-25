@@ -49,7 +49,12 @@ const Navbar = () => {
         <li className={`navbar-item ${activeSection === "video-guides" ? "active" : ""}`} data-name="VIDEO-GUIAS">
           <a href="#video-guides"></a>
         </li>
-
+        <li className={`navbar-item ${activeSection === "requirements" ? "active" : ""}`} data-name="REQUISITOS">
+          <a href="#requirements"></a>
+        </li>
+        <li className={`navbar-item ${activeSection === "store" ? "active" : ""}`} data-name="TIENDA">
+          <a href="#store"></a>
+        </li>
       </ul>
     </nav>
   );
