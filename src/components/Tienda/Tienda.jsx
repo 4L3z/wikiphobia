@@ -27,7 +27,7 @@ const Tienda = () => {
       </div>
       <Carrito carrito={carrito} />
       
-      <div className="objetos-grid">
+      <div className="products-grid">
         {objetosData.map((objeto, index) => (
           <Objeto key={index} objeto={objeto} agregarAlCarrito={agregarAlCarrito} />
         ))}

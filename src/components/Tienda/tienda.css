@@ -41,13 +41,13 @@
     color: #28d312; /* Color del ícono */
   }
   
-  .objetos-grid {
+  .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adaptar los objetos a la pantalla */
     gap: 20px;
   }
   
-  .objeto-card {
+  .products-card {
     background-color: rgb(101, 61, 61);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -59,12 +59,12 @@
     padding: 30px;
   }
   
-  .objeto-card:hover {
+  .products-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  .objeto-card img {
+  .products-card img {
     max-width: 200px;
     height: auto;
     margin-bottom: 10px;
@@ -72,14 +72,14 @@
     border: 5px solid #790303;
   }
   
-  .objeto-card h3 {
+  .products-card h3 {
     margin: 10px 0;
     font-size: 1.2rem;
     font-family: Card-Title, sans-serif;
     color: white;
   }
   
-  .objeto-card p {
+  .products-card p {
     font-size: 0.9rem;
     font-family: Card-Text, sans-serif;
     color: white;
@@ -87,7 +87,7 @@
   }
   
   
-  .objeto-card button {
+  .products-card button {
     background-color: #af1414;
     color: white;
     border: none;
@@ -99,7 +99,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .objeto-card button:hover {
+  .products-card button:hover {
     background-color: #780e0e;
   }
   
