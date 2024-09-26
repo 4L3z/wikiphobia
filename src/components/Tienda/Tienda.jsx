@@ -12,11 +12,11 @@ const Tienda = () => {
   };
 
   return (
-    <section id='store'>
+    <section className='store-section' id='store'>
     <div className="tienda-container">
-      <h1>TIENDA</h1>
+      <h1 className='title-store'>TIENDA</h1>
       <div className="iframe-container">
-        <h2>COMPRA EL JUEGO AQUÍ!!</h2>
+        <h2 className='juego'>COMPRA EL JUEGO AQUÍ!!</h2>
         <div className="responsive-iframe">
           <iframe 
             src="https://store.steampowered.com/widget/739630/" 

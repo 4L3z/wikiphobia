@@ -1,0 +1,28 @@
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .ListaLindaFooter {
+    list-style-type:circle;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Escritura, sans-serif;
+    font-size: 16px;
+  }
+  
+  .ListaLindaFooter li {
+    margin: 5px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+  

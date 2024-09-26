@@ -12,11 +12,10 @@ const Carrito = ({ carrito }) => {
   const total = carrito.reduce((sum, item) => sum + item.precio, 0);
 
   return (
-    <div className="carrito">
-      <div onClick={toggleModal}>
-        <FaShoppingCart size={24} />
-        <span>{carrito.length} items</span>
-        <span>Total: ${total.toFixed(2)}</span>
+    <div className="carrito" onClick={toggleModal}>
+      <div>
+        <FaShoppingCart size={24} style={{ cursor: 'pointer' }}/>
+        <span className='numerito'>{carrito.length}</span>
       </div>
       <CarritoModal carrito={carrito} mostrarModal={mostrarModal} toggleModal={toggleModal} />
     </div>

@@ -1,16 +1,21 @@
-body {
-    font-family: 'Roboto', sans-serif; /* Cambia la fuente para hacerla más moderna */
-    background-color: #f4f4f4; /* Color de fondo más suave */
-    margin: 0;
-    padding: 0;
-  }
+
   
-  /* h1 {
+.store-section {
+  background-color: #0c0810;
+  }
+
+  .title-store {
     font-size: 2.5rem;
-    color: #333;
+    color: white;
+    font-family: Escritura, sans-serif;
     text-align: center;
     margin-bottom: 40px;
-  } */
+  }
+
+  .juego{
+    font-family: Escritura, sans-serif;
+    color: white;
+  }
   
   .tienda-container {
     padding: 20px;
@@ -24,7 +29,8 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 18px;
-    background-color: #fff;
+    color: white;
+    background-color: #6c2929;
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -32,7 +38,7 @@ body {
   }
   
   .carrito svg {
-    color: #4caf50; /* Color del ícono */
+    color: #28d312; /* Color del ícono */
   }
   
   .objetos-grid {
@@ -42,13 +48,15 @@ body {
   }
   
   .objeto-card {
-    background-color: white;
+    background-color: rgb(101, 61, 61);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    cursor: default;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     text-align: center;
-    padding: 20px;
+    height: auto;
+    padding: 30px;
   }
   
   .objeto-card:hover {
@@ -57,35 +65,33 @@ body {
   }
   
   .objeto-card img {
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 10px;
+    border: 5px solid #790303;
   }
   
   .objeto-card h3 {
     margin: 10px 0;
     font-size: 1.2rem;
-    color: #333;
+    font-family: Card-Title, sans-serif;
+    color: white;
   }
   
   .objeto-card p {
     font-size: 0.9rem;
-    color: #666;
+    font-family: Card-Text, sans-serif;
+    color: white;
     margin-bottom: 10px;
   }
   
-  .objeto-card select {
-    margin-bottom: 10px;
-    padding: 5px;
-    font-size: 1rem;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-  }
   
   .objeto-card button {
-    background-color: #4caf50;
+    background-color: #af1414;
     color: white;
     border: none;
+    font-family: Card-consumable, sans-serif;
     padding: 10px 20px;
     border-radius: 6px;
     font-size: 1rem;
@@ -94,7 +100,7 @@ body {
   }
   
   .objeto-card button:hover {
-    background-color: #45a049;
+    background-color: #780e0e;
   }
   
 
@@ -124,4 +130,21 @@ body {
     height: 100%;
     min-height: 190px; /* Altura mínima deseada */
   }
-  
+
+  .numerito{
+    margin-left: 10px;
+    font-family: Escritura, sans-serif;
+  }
+  .modal-content{
+    padding: 30px;
+  }
+  .modal-store-title{
+    color: white;
+    font-family: Escritura, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .totalxd{
+    font-family: Escritura, sans-serif;
+  }

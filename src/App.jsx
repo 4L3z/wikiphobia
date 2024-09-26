@@ -13,6 +13,7 @@ import Tienda from './components/Tienda/Tienda';
 import Consejos from './components/Consejos/Tips';
 import VideoGuides from './components/VideoTips/VideoGuides';
 import Requisitos from './components/Requisitos/Requisitos';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <Router>
@@ -49,6 +50,7 @@ function App() {
               <section id='store'> 
               <Tienda/>
               </section>
+              <Footer/>
             </>
           }
         />

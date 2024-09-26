@@ -1,53 +1,122 @@
 [
-    {
-      "id": 1,
-      "nombre": "Linterna",
-      "imagen": "ruta/imagen/linterna.jpg",
-      "tiers": [
-        { "nivel": "Tier 1", "precio": 20 },
-        { "nivel": "Tier 2", "precio": 30 },
-        { "nivel": "Tier 3", "precio": 40 }
-      ]
-    },
-    {
-      "id": 2,
-      "nombre": "Libro de Escritura",
-      "imagen": "ruta/imagen/libro.jpg",
-      "tiers": [
-        { "nivel": "Tier 1", "precio": 50 },
-        { "nivel": "Tier 2", "precio": 75 },
-        { "nivel": "Tier 3", "precio": 100 }
-      ]
-    },
-    {
-      "id": 3,
-      "nombre": "Crucifijo",
-      "imagen": "ruta/imagen/crucifijo.jpg",
-      "tiers": [
-        { "nivel": "Tier 1", "precio": 100 },
-        { "nivel": "Tier 2", "precio": 150 },
-        { "nivel": "Tier 3", "precio": 200 }
-      ]
-    },
-    {
-      "id": 4,
-      "nombre": "Cámara de Fotos",
-      "imagen": "ruta/imagen/camara.jpg",
-      "tiers": [
-        { "nivel": "Tier 1", "precio": 150 },
-        { "nivel": "Tier 2", "precio": 200 },
-        { "nivel": "Tier 3", "precio": 250 }
-      ]
-    },
-    {
-      "id": 5,
-      "nombre": "Termómetro",
-      "imagen": "ruta/imagen/termometro.jpg",
-      "tiers": [
-        { "nivel": "Tier 1", "precio": 40 },
-        { "nivel": "Tier 2", "precio": 60 },
-        { "nivel": "Tier 3", "precio": 80 }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Proyector D.O.T.S",
+    "precio": 65,
+    "imagen": "/Objects/Nivel 3/DOTS-Tier-3.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Medidor EMF",
+    "precio": 45,
+    "imagen": "/Objects/Nivel 3/EMF-Tier-3.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Libro de Escritura",
+    "precio": 40,
+    "imagen": "/Objects/Nivel 3/Libro-de-escritura-Tier-3.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Spirit Box",
+    "precio": 50,
+    "imagen": "/Objects/Nivel 3/Espirit-Box-Tier-3.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Termómetro",
+    "precio": 30,
+    "imagen": "/Objects/Nivel 3/Termometro-Tier-3.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Ultravioleta",
+    "precio": 20,
+    "imagen": "/Objects/Nivel 3/Linterna-Ultravioleta-Tier-3.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Cámara de Vídeo",
+    "precio": 50,
+    "imagen": "/Objects/Nivel 3/Camara-de-video-Tier-3.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Crucifijo",
+    "precio": 30,
+    "imagen": "/Objects/Nivel 3/Crucifijo-Tier-3.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Vela (Lumbre)",
+    "precio": 15,
+    "imagen": "/Objects/Nivel 3/Vela-Tier-3.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Linterna",
+    "precio": 30,
+    "imagen": "/Objects/Nivel 3/Linterna-Tier-3.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Equipamiento de la Cabeza",
+    "precio": 60,
+    "imagen": "/Objects/Nivel 3/Literna-inflaroja-cabeza-Tier-3.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Encendedor",
+    "precio": 10,
+    "imagen": "/Objects/Nivel 3/Mechero-Tier-3.png"
+  },
+  {
+    "id": 13,
+    "nombre": "Incienso",
+    "precio": 15,
+    "imagen": "/Objects/Nivel 3/Incienso-Tier-3.png"
+  },
+  {
+    "id": 14,
+    "nombre": "Sensor de Movimiento",
+    "precio": 100,
+    "imagen": "/Objects/Nivel 3/Sensor-de-movimiento-Tier-3.png"
+  },
+  {
+    "id": 15,
+    "nombre": "Micrófono Parabólico",
+    "precio": 50,
+    "imagen": "/Objects/Nivel 3/Parabolica-Tier-3.png"
+  },
+  {
+    "id": 16,
+    "nombre": "Cámara de Fotos",
+    "precio": 40,
+    "imagen": "/Objects/Nivel 3/Camara-de-fotos-Tier-3.png"
+  },
+  {
+    "id": 17,
+    "nombre": "Sal",
+    "precio": 15,
+    "imagen": "/Objects/Nivel 3/Sal-Tier-3.png"
+  },
+  {
+    "id": 18,
+    "nombre": "Cordura",
+    "precio": 20,
+    "imagen": "/Objects/Nivel 3/Inyeccion-de-cordura-Tier-3.png"
+  },
+  {
+    "id": 19,
+    "nombre": "Sensor de Sonido",
+    "precio": 80,
+    "imagen": "/Objects/Nivel 3/Sensor-de-sonido-Tier-3.png"
+  },
+  {
+    "id": 20,
+    "nombre": "Trípode",
+    "precio": 25,
+    "imagen": "/Objects/Nivel 3/Tripode-Tier-3.png"
+  }
+]

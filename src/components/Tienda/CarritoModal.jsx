@@ -14,8 +14,8 @@ const CarritoModal = ({ carrito, mostrarModal, toggleModal }) => {
   return (
     <div className="modal">
       <div className="modal-content">
-        <span className="close" onClick={toggleModal}>&times;</span>
-        <h2>Detalle del Carrito</h2>
+        <span className="close" onClick={toggleModal} style={{ cursor: 'pointer' }}>&times;</span>
+        <h2 className="modal-store-title">Detalle del Carrito</h2>
         <ul>
           {carrito.map((item, index) => (
             <li key={index}>
@@ -23,7 +23,7 @@ const CarritoModal = ({ carrito, mostrarModal, toggleModal }) => {
             </li>
           ))}
         </ul>
-        <p>Total: ${calcularTotal().toFixed(2)}</p>
+        <p className="totalxd">Total: ${calcularTotal().toFixed(2)}</p>
       </div>
     </div>
   );
