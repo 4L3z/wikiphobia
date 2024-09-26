@@ -37,12 +37,12 @@ Bienvenido a WikiPhobia, la guía interactiva de *Phasmophobia* diseñada para a
 
 ## Miembros del equipo CTA
 
-- **[Alejandro Palacios]** 
-- **[Mateo Faya]** 
-- **[Lucas Gutiérrez]** 
-- **[Felipe Gervan]**
-- **[Natalie Schunke]**
-- **[Santiago Villafañez]**
+- **[Alejandro Palacios]**  Developer
+- **[Mateo Faya]** Modal Content
+- **[Lucas Gutiérrez]** Design
+- **[Felipe Gervan]** Tester
+- **[Natalie Schunke]** Videos
+- **[Santiago Villafañez]** Images
 
 ---
 
