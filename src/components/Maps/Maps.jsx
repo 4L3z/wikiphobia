@@ -30,7 +30,10 @@ export function Maps() {
     }, []);
 
     const handleMapClick = (mapId) => {
-        setSelectedMapId(mapId);
+        setSelectedMapId(null);
+        setTimeout(() => {
+            setSelectedMapId(mapId);
+        }, 0);
     };
 
     return (
@@ -59,4 +62,3 @@ export function Maps() {
         </section>
     );
 }
-

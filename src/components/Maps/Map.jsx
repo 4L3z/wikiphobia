@@ -5,6 +5,8 @@ import Swal from 'sweetalert2';
 export function MapsModal({ mapData }) {
   useEffect(() => {
     if (mapData) {
+      Swal.close(); // Cierra cualquier modal abierto previamente
+      
       const imagesHtml = mapData.images.map(img => `
         <div class="image-wrapper">
           <div class="image-title">${img.title}</div>
@@ -41,7 +43,7 @@ export function MapsModal({ mapData }) {
         }
       });
     }
-  }, [mapData]);
+  }, [mapData]); // Aquí está la clave, el efecto depende de los cambios en `mapData`
 
   return null;
 }
